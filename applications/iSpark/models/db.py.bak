@@ -1,0 +1,281 @@
+# -*- coding: utf-8 -*-
+
+# -------------------------------------------------------------------------
+# AppConfig configuration made easy. Look inside private/appconfig.ini
+# Auth is for authenticaiton and access control
+# -------------------------------------------------------------------------
+from gluon.contrib.appconfig import AppConfig
+from gluon.tools import Auth
+
+# -------------------------------------------------------------------------
+# This scaffolding model makes your app work on Google App Engine too
+# File is released under public domain and you can use without limitations
+# -------------------------------------------------------------------------
+
+if request.global_settings.web2py_version < "2.15.5":
+    raise HTTP(500, "Requires web2py 2.15.5 or newer")
+
+# -------------------------------------------------------------------------
+# if SSL/HTTPS is properly configured and you want all HTTP requests to
+# be redirected to HTTPS, uncomment the line below:
+# -------------------------------------------------------------------------
+# request.requires_https()
+
+# -------------------------------------------------------------------------
+# once in production, remove reload=True to gain full speed
+# -------------------------------------------------------------------------
+configuration = AppConfig(reload=True)
+
+if not request.env.web2py_runtime_gae:
+    # ---------------------------------------------------------------------
+    # if NOT running on Google App Engine use SQLite or other DB
+    # ---------------------------------------------------------------------
+    db = DAL(configuration.get('db.uri'),
+             pool_size=configuration.get('db.pool_size'),
+             migrate_enabled=configuration.get('db.migrate'),
+             check_reserved=['all'])
+else:
+    # ---------------------------------------------------------------------
+    # connect to Google BigTable (optional 'google:datastore://namespace')
+    # ---------------------------------------------------------------------
+    db = DAL('google:datastore+ndb')
+    # ---------------------------------------------------------------------
+    # store sessions and tickets there
+    # ---------------------------------------------------------------------
+    session.connect(request, response, db=db)
+    # ---------------------------------------------------------------------
+    # or store session in Memcache, Redis, etc.
+    # from gluon.contrib.memdb import MEMDB
+    # from google.appengine.api.memcache import Client
+    # session.connect(request, response, db = MEMDB(Client()))
+    # ---------------------------------------------------------------------
+
+# -------------------------------------------------------------------------
+# by default give a view/generic.extension to all actions from localhost
+# none otherwise. a pattern can be 'controller/function.extension'
+# -------------------------------------------------------------------------
+response.generic_patterns = [] 
+if request.is_local and not configuration.get('app.production'):
+    response.generic_patterns.append('*')
+
+# -------------------------------------------------------------------------
+# choose a style for forms
+# -------------------------------------------------------------------------
+response.formstyle = 'bootstrap4_inline'
+response.form_label_separator = ''
+
+# -------------------------------------------------------------------------
+# (optional) optimize handling of static files
+# -------------------------------------------------------------------------
+# response.optimize_css = 'concat,minify,inline'
+# response.optimize_js = 'concat,minify,inline'
+
+# -------------------------------------------------------------------------
+# (optional) static assets folder versioning
+# -------------------------------------------------------------------------
+# response.static_version = '0.0.0'
+
+# -------------------------------------------------------------------------
+# Here is sample code if you need for
+# - email capabilities
+# - authentication (registration, login, logout, ... )
+# - authorization (role based authorization)
+# - services (xml, csv, json, xmlrpc, jsonrpc, amf, rss)
+# - old style crud actions
+# (more options discussed in gluon/tools.py)
+# -------------------------------------------------------------------------
+
+# host names must be a list of allowed host names (glob syntax allowed)
+auth = Auth(db, host_names=configuration.get('host.names'))
+
+# -------------------------------------------------------------------------
+# create all tables needed by auth, maybe add a list of extra fields
+# -------------------------------------------------------------------------
+auth.settings.extra_fields['auth_user'] = []
+auth.define_tables(username=False, signature=False)
+
+# -------------------------------------------------------------------------
+# configure email
+# -------------------------------------------------------------------------
+mail = auth.settings.mailer
+mail.settings.server = 'logging' if request.is_local else configuration.get('smtp.server')
+mail.settings.sender = configuration.get('smtp.sender')
+mail.settings.login = configuration.get('smtp.login')
+mail.settings.tls = configuration.get('smtp.tls') or False
+mail.settings.ssl = configuration.get('smtp.ssl') or False
+
+# -------------------------------------------------------------------------
+# configure auth policy
+# -------------------------------------------------------------------------
+auth.settings.registration_requires_verification = False
+auth.settings.registration_requires_approval = False
+auth.settings.reset_password_requires_verification = True
+
+# -------------------------------------------------------------------------
+# read more at http://dev.w3.org/html5/markup/meta.name.html
+# -------------------------------------------------------------------------
+response.meta.author = configuration.get('app.author')
+response.meta.description = configuration.get('app.description')
+response.meta.keywords = configuration.get('app.keywords')
+response.meta.generator = configuration.get('app.generator')
+response.show_toolbar = configuration.get('app.toolbar')
+
+# -------------------------------------------------------------------------
+# your http://google.com/analytics id
+# -------------------------------------------------------------------------
+response.google_analytics_id = configuration.get('google.analytics_id')
+
+# -------------------------------------------------------------------------
+# maybe use the scheduler
+# -------------------------------------------------------------------------
+if configuration.get('scheduler.enabled'):
+    from gluon.scheduler import Scheduler
+    scheduler = Scheduler(db, heartbeat=configuration.get('scheduler.heartbeat'))
+
+# -------------------------------------------------------------------------
+# Define your tables below (or better in another model file) for example
+#
+# >>> db.define_table('mytable', Field('myfield', 'string'))
+#
+# Fields can be 'string','text','password','integer','double','boolean'
+#       'date','time','datetime','blob','upload', 'reference TABLENAME'
+# There is an implicit 'id integer autoincrement' field
+# Consult manual for more options, validators, etc.
+#
+# More API examples for controllers:
+#
+# >>> db.mytable.insert(myfield='value')
+# >>> rows = db(db.mytable.myfield == 'value').select(db.mytable.ALL)
+# >>> for row in rows: print row.id, row.myfield
+# -------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------
+# after defining tables, uncomment below to enable auditing
+# -------------------------------------------------------------------------
+# auth.enable_record_versioning(db)
+
+db.define_table('designation',
+                Field('name','string',label='Designation'),
+                format='%(name)s'
+               )
+
+db.define_table('govt_r_o',
+                Field('doo','date',label='Date of occupied'),
+                Field('dov','date',label='Date of vaccated'),
+                format='%(doo)s'
+               )
+
+db.define_table('employee',
+                Field('pen','integer',requires=[IS_NOT_EMPTY],label='PEN'),
+                Field('name','string',requires=[IS_NOT_EMPTY],label='Name of employee'),
+                Field('designation','reference designation'),
+                Field('scale_of_pay','integer',label='Scale_of_pay'),
+                Field('doj','date',label='Date of join'),
+                Field('docp','date',label='Date of completion probation'),
+                Field('m_status',requires=IS_IN_SET(['Married','Not married','Widower']),label='Marital status'),
+                Field('doi','date',label='Date of increment'),
+                Field('gpf_acc_no','integer',label='GPF account number'),
+                Field('off_tem',requires=IS_IN_SET(['Officiating','Temparary']),label='Job status'),
+                Field('doo','reference govt_r_o'),
+                Field('fps_no','integer',label='FPS number'),
+                Field('lic_no','integer',label='LIC number'),
+                Field('sli_no','integer',label='SLI number'),
+                Field('pli_no','integer',label='PLI number'),
+                Field('service_verified',requires=IS_IN_SET(['Yes','No']),label='Service verified'),
+                Field('honorarium',requires=IS_IN_SET(['Yes','No']),label='Honorarium'),
+                format='%(pen)s'
+               )
+
+db.define_table('remitence',
+                Field('pen','reference employee'),
+                Field('dte','date',label='Date'),
+                Field('amd','integer',label='Amount debited'),
+                Field('chkd','integer',label='Check details'),
+                Field('chkno','integer',label='Check number'),
+                Field('chkd','date',label='Check date'),
+                Field('typ','string',label='Type'),
+                Field('amt','integer',label='Amount'),
+                format='%(amt)s'
+               )
+
+db.define_table('bank',
+                Field('pen','reference employee'),
+                Field('amt','reference remitence'),
+                Field('ahn','string',label='Account holder name'),
+                Field('accno','integer',label='Account number'),
+                Field('ifsc','string',label='IFSC code'),
+                Field('pan','string',label='PAN number'),
+                Field('mob','string',label='Mobile'),
+                Field('addr','string',label='Addhar'),
+                Field('remitence','reference remitence'),
+                format='%(accno)s'
+               )
+
+db.define_table('pbr',
+                Field('pen','reference employee'),
+                Field('billno','integer',requires=[IS_NOT_EMPTY],label='Bill number'),
+                Field('fbs','integer',label='FBS'),
+                Field('m_and_year','date',label='Month and year'),
+                Field('evt','string',label='Event'),
+                Field('op','string',label='Officiating pay'),
+                Field('dod','date',label='Date of draw'),
+                Field('fdr','integer',label='Flood reles'),
+                Field('ssp','integer',label='Sub stantive pay'),
+                Field('acc_details','string',label='Account details'),
+                Field('lve_s','integer',label='Leave salary'),
+                Field('clerk_en','string',label='Clerk entered'),
+                Field('da','integer',label='DA'),
+                Field('hra','integer',label='HRA'),
+                Field('spa','integer',label='Special allovance'),
+                Field('amt','reference remitence'),
+                Field('gps','integer',label='GPS sub'),
+                Field('tdue','integer',label='Total dues'),
+                Field('gpf','integer',label='GPF advanced'),
+                Field('hore','integer',label='House rent'),
+                Field('accno','reference bank'),
+                Field('itax','integer',label='Income tax'),
+                Field('f_allow','integer',label='Festival allowance'),
+                Field('h_allow','integer',label='House build allowance'),
+                Field('gpas','integer',label='GPAS'),
+                Field('td','integer',label='Total deduced'),
+                Field('np','integer',label='Net pay'),
+                Field('pv','string',label='Principal approved'),
+                format='%(pen)s'
+               )
+
+db.define_table('lve',
+                Field('pen','reference employee'),
+                Field('apply_date','date',label='Apply date'),
+                Field('typ',requires=IS_IN_SET(['Duty leave','Other']),label='From date'),
+                Field('f_date','date',label='From date'),
+                Field('t_date','date',label='To date'),
+                Field('days','integer',label='Total leaves'),
+                Field('reason','string',label='Reason'),
+                Field('l_id','integer',label='Leave ID'),
+                Field('status','date',label='Status'),
+                format='%()s'
+               )
+
+#db.define_table('advances',
+#                Field('gpf','integer',label='GPF'),
+#                Field('cyclic_mc','date',label='Cyclic MC'),
+#                Field('fest_allo','integer',label='Festival allowance'),
+#                Field('h_l_mna','integer',label=''),
+#                Field('no_date','integer',label='Number of dates'),
+#                format='%(gpf)s'
+#               )
+
+#db.define_table('govtres',
+#                Field('dooc','date',label='Date of occupied'),
+#                Field('dov','date',label='Date of vaccated'),
+#                format='%(dooc,dov)s'
+#               )
+
+#db.define_table('salary',
+#                Field('employee','reference employee'),
+#                Field('b_acc','integer',label='Bank account'),
+#                Field('lve','reference lve',label='Total leaves'),
+#                Field('cu_bp','integer',label='Current basic pay'),
+#                Field('sc_of_pay','integer',label='Scale of pay'),
+#                format='%(cu_bp)s'
+#               )

@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>{{=response.title or request.application}}</title>
+    <!-- http://dev.w3.org/html5/markup/meta.name.html -->
+    <meta name="application-name" content="{{=request.application}}">
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="{{=URL('static','hadmin/assets/css/bootstrap.css')}}" rel="stylesheet" />
+    <link href="{{=URL('static','hadmin/assets/css/web2py.css')}}" rel="stylesheet" />
+    <!-- FONT AWESOME STYLE  -->
+    <link href="{{=URL('static','hadmin/assets/css/font-awesome.css')}}" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="{{=URL('static','hadmin/assets/css/style.css')}}" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+    <script src="{{=URL('static','js/modernizr-2.8.3.min.js')}}"></script>
+    <!-- Favicons -->
+    {{include 'web2py_ajax.html'}} <!-- this includes jquery.js, calendar.js/.css and web2py.js -->
+    {{block head}}{{end}}
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 40vh;
+            object-fit: cover;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse set-radius-zero" >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{=URL('dashboard','company')}}">
+
+                    <img src="{{=URL('static','hadmin/assets/img/logo.png')}}" />
+                </a>
+
+            </div>
+
+            <div class="right-div">
+                <a href="{{=URL('default','logout')}}" class="btn btn-info pull-right">LOG ME OUT</a>
+            </div>
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                        {{if auth.is_logged_in(): }}
+                           {{x=db(db.auth_user.id == auth.user_id).select().first()}}
+                           {{if x.first_name == 'Clerk' :}}
+                               {{for _item in response.menu or []:}}
+                                    {{if len(_item)<4 or not _item[3]:}}
+                                           <li class="nav-item {{if _item[1]:}}active{{pass}}">
+                                           <a class="nav-link" href="{{=_item[2]}}">{{=_item[0]}}</a>
+                                           </li>
+                                    {{else:}}
+                                           <li class="nav-item dropdown" role="menu" aria-labelledby="ddlmenuItem">
+                                           <a href="{{=_item[2]}}" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown">                                            {{=_item[0]}}<i class="fa fa-angle-down"></i></a>
+                                           <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
+                                           {{for _subitem in _item[3]:}}
+                                                  <li role="presentation">
+                                                  <a class="dropdown-item"  tabindex="-1" href="{{=_subitem[2]}}">{{=_subitem[0]}}                                                   </a>
+                                                  </li>
+                                           {{pass}}
+                                           </ul>
+                                           </li>
+                                    {{pass}}
+                               {{pass}}
+                           {{pass}}
+                           {{if x.first_name == 'Principal' :}}
+                               {{for _item in response.pmenu or []:}}
+                                    {{if len(_item)<4 or not _item[3]:}}
+                                           <li class="nav-item {{if _item[1]:}}active{{pass}}">
+                                           <a class="nav-link" href="{{=_item[2]}}">{{=_item[0]}}</a>
+                                           </li>
+                                    {{else:}}
+                                           <li class="nav-item dropdown" role="menu" aria-labelledby="ddlmenuItem">
+                                           <a href="{{=_item[2]}}" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown">                                            {{=_item[0]}}<i class="fa fa-angle-down"></i></a>
+                                           <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
+                                           {{for _subitem in _item[3]:}}
+                                                  <li role="presentation">
+                                                  <a class="dropdown-item"  tabindex="-1" href="{{=_subitem[2]}}">{{=_subitem[0]}}                                                   </a>
+                                                  </li>
+                                           {{pass}}
+                                           </ul>
+                                           </li>
+                                    {{pass}}
+                               {{pass}}
+                           {{pass}}
+                           {{if x.user_type != 'Admin' :}}
+                               {{for _item in response.emenu or []:}}
+                                    {{if len(_item)<4 or not _item[3]:}}
+                                           <li class="nav-item {{if _item[1]:}}active{{pass}}">
+                                           <a class="nav-link" href="{{=_item[2]}}">{{=_item[0]}}</a>
+                                           </li>
+                                    {{else:}}
+                                           <li class="nav-item dropdown" role="menu" aria-labelledby="ddlmenuItem">
+                                           <a href="{{=_item[2]}}" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown">                                            {{=_item[0]}}<i class="fa fa-angle-down"></i></a>
+                                           <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
+                                           {{for _subitem in _item[3]:}}
+                                                  <li role="presentation">
+                                                  <a class="dropdown-item"  tabindex="-1" href="{{=_subitem[2]}}">{{=_subitem[0]}}                                                   </a>
+                                                  </li>
+                                           {{pass}}
+                                           </ul>
+                                           </li>
+                                    {{pass}}
+                               {{pass}}
+                           {{pass}}
+                        {{pass}}
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+     <!-- MENU SECTION END-->
+    <div class="content-wrapper">
+         <div class="container">
+        <div class="row pad-botm">
+            <div class="col-md-12">
+              {{include}}
+
+            </div>
+
+        </div>
+        </div>
+    </div>
+    </div>
+     <!-- CONTENT-WRAPPER SECTION END-->
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   &copy; 2019 ipaymaster.com |<a href="http:/www.ipaymaster.com/" target="_blank"  > Designed by : ipaymaster.com</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+      <!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="{{=URL('static','hadmin/assets/js/jquery-1.10.2.js')}}"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="{{=URL('static','hadmin/assets/js/bootstrap.js')}}"></script>
+      <!-- CUSTOM SCRIPTS  -->
+    <script src="{{=URL('static','hadmin/assets/js/custom.js')}}"></script>
+</body>
+</html>

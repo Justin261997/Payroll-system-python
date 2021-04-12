@@ -1,0 +1,5218 @@
+(dp1
+S'_user_agent'
+p2
+cgluon.storage
+Storage
+p3
+((dp4
+S'platform'
+p5
+g3
+((dp6
+S'version'
+p7
+S'10'
+p8
+sS'name'
+p9
+S'Windows'
+p10
+stRp11
+sS'is_tablet'
+p12
+I00
+sS'is_mobile'
+p13
+I00
+sS'bot'
+p14
+I00
+sS'os'
+p15
+g3
+((dp16
+g7
+g8
+sg9
+g10
+stRp17
+sS'browser'
+p18
+g3
+((dp19
+g7
+S'72.0.3626.109'
+p20
+sg9
+S'Chrome'
+p21
+stRp22
+stRp23
+sS'flash'
+p24
+NsS'pam_user'
+p25
+NsS'_formkey[appupdate/create]'
+p26
+(lp27
+S'85bd091a-3f08-48f1-86b5-415c3da28a3a'
+p28
+aS'561a7e2f-f1b6-43da-b910-1184f5600b35'
+p29
+aS'410db628-3dc8-4ad5-b5d3-adf75633b195'
+p30
+aS'c98e98e5-1e57-4ae6-8f0d-21b86ca12544'
+p31
+aS'f02d57d9-6c45-4279-8f10-a5a739c97494'
+p32
+aS'4a57ef32-9aa1-46f9-ad0f-28012ed63a09'
+p33
+aS'51179452-050c-4b76-87aa-1e96125997d9'
+p34
+aS'aad040f3-3b9d-48d2-8cbf-cfb4438bdc88'
+p35
+aS'fa89a5d3-c5c1-4bfa-a5ba-1ea72a8c402a'
+p36
+aS'9837b91d-56bb-461e-9b11-9cb0a0b322fb'
+p37
+asS'check_version'
+p38
+I00
+sS'hmac_key'
+p39
+S'427a6ed5-11a7-48b0-af24-27d86a23c80c'
+p40
+sS'token'
+p41
+S'cfcd2f0a-dab2-4a10-9853-ff37d0203ea4'
+p42
+sg13
+S'auto'
+p43
+sS'authorized'
+p44
+I01
+sS'plugins'
+p45
+(dp46
+Vdebug
+p47
+(dp48
+Vcount
+p49
+I27
+sVquery
+p50
+V(((article.id = package_data.article_id) AND (article.content_type_id = 4)) AND (package_data.package_type = 'plugin'))
+p51
+sVcontent_type
+p52
+VPackage
+p53
+sVfieldnames
+p54
+(lp55
+Varticle.id
+p56
+aVarticle.author
+p57
+aVarticle.author_nickname
+p58
+aVarticle.title
+p59
+aVarticle.description
+p60
+aVarticle.picture
+p61
+aVarticle.medium_thumbnail
+p62
+aVarticle.thumbnail
+p63
+aVarticle.draft
+p64
+aVarticle.category_id
+p65
+aVarticle.tags
+p66
+aVarticle.keywords
+p67
+aVarticle.content_type_id
+p68
+aVarticle.content_type
+p69
+aVarticle.slug
+p70
+aVarticle.publish_date
+p71
+aVarticle.publish_tz
+p72
+aVarticle.featured
+p73
+aVarticle.blocked
+p74
+aVarticle.privacy
+p75
+aVarticle.license
+p76
+aVarticle.likes
+p77
+aVarticle.dislikes
+p78
+aVarticle.views
+p79
+aVarticle.responses
+p80
+aVarticle.favorited
+p81
+aVarticle.subscriptions
+p82
+aVarticle.is_active
+p83
+aVarticle.created_on
+p84
+aVarticle.created_by
+p85
+aVarticle.modified_on
+p86
+aVarticle.modified_by
+p87
+aVpackage_data.id
+p88
+aVpackage_data.markup
+p89
+aVpackage_data.body
+p90
+aVpackage_data.package_type
+p91
+aVpackage_data.repository_project
+p92
+aVpackage_data.repository_brand
+p93
+aVpackage_data.repository_url
+p94
+aVpackage_data.repository_page
+p95
+aVpackage_data.pypi
+p96
+aVpackage_data.documentation
+p97
+aVpackage_data.demo
+p98
+aVpackage_data.download
+p99
+aVpackage_data.license_type
+p100
+aVpackage_data.license_version
+p101
+aVpackage_data.license_url
+p102
+aVpackage_data.license_body
+p103
+aVpackage_data.screenshots
+p104
+aVpackage_data.qualification
+p105
+aVpackage_data.article_id
+p106
+aVpackage_data.type_id
+p107
+aVpackage_data.is_active
+p108
+aVpackage_data.created_on
+p109
+aVpackage_data.created_by
+p110
+aVpackage_data.modified_on
+p111
+aVpackage_data.modified_by
+p112
+assVmessage
+p113
+Vdone
+p114
+sVresults
+p115
+(lp116
+(dp117
+Varticle
+p118
+(dp119
+Vfavorited
+p120
+I0
+sVdislikes
+p121
+I0
+sVauthor_nickname
+p122
+NsVfeatured
+p123
+I00
+sVlikes
+p124
+I0
+sVkeywords
+p125
+NsVid
+p126
+I1659
+sVdescription
+p127
+Vweb2py plugin for Python math packages
+p128
+sVmodified_by
+p129
+NsVauthor
+p130
+I1013
+sVviews
+p131
+I4484
+sVcreated_by
+p132
+I1013
+sVdraft
+p133
+I00
+sVpublish_date
+p134
+NsVblocked
+p135
+I00
+sVthumbnail
+p136
+Varticle.picture.937eea243df39aa5.6d6174683270795f6c6f676f5f7371756172652e706e67_thumb.png
+p137
+sVpicture
+p138
+Varticle.picture.937eea243df39aa5.6d6174683270795f6c6f676f5f7371756172652e706e67.png
+p139
+sVresponses
+p140
+I0
+sVsubscriptions
+p141
+I1
+sVis_active
+p142
+I01
+sVcontent_type
+p143
+NsVmodified_on
+p144
+NsVslug
+p145
+Vmath2py
+p146
+sVtags
+p147
+(lp148
+Vmath
+p149
+aVplugin
+p150
+aVapp
+p151
+asVcontent_type_id
+p152
+I4
+sVlicense
+p153
+V1
+sVprivacy
+p154
+NsVcreated_on
+p155
+NsVmedium_thumbnail
+p156
+Varticle.picture.937eea243df39aa5.6d6174683270795f6c6f676f5f7371756172652e706e67_medium_thumb.png
+p157
+sVpublish_tz
+p158
+NsVtitle
+p159
+Vmath2py
+p160
+sVcategory_id
+p161
+(lp162
+ssVpackage_data
+p163
+(dp164
+Vpackage_type
+p165
+Vplugin
+p166
+sVtype_id
+p167
+I4
+sVdemo
+p168
+Vhttp://math2py.appspot.com/
+p169
+sVdownload
+p170
+Vhttps://docs.google.com/uc?export=download&id=0B1G2yisrauPCcmgxeWt3RnhJWFE
+p171
+sVcreated_on
+p172
+NsVrepository_url
+p173
+Vhttps://code.google.com/p/math2py/ 
+p174
+sVscreenshots
+p175
+(lp176
+Vhttp://revista.python.org.ar/4/es/images/math2py/graph_1.jpg
+p177
+aVhttp://revista.python.org.ar/4/es/images/math2py/math_panel_1.jpg
+p178
+asVid
+p179
+I4
+sVmodified_by
+p180
+I1013
+sVlicense_body
+p181
+V   math2py: web2py plugin/app interface for Python math tools\u000a    Copyright (C) 2011  Alan Etkin\u000a\u000a    This program is free software: you can redistribute it and/or modify\u000a    it under the terms of the GNU Affero General Public License as published by\u000a    the Free Software Foundation, either version 3 of the License, or\u000a    (at your option) any later version.\u000a\u000a    This program is distributed in the hope that it will be useful,\u000a    but WITHOUT ANY WARRANTY; without even the implied warranty of\u000a    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\u000a    GNU Affero General Public License for more details.\u000a\u000a    You should have received a copy of the GNU Affero General Public License\u000a    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+p182
+sVcreated_by
+p183
+I1013
+sVrepository_brand
+p184
+Vhg
+p185
+sVbody
+p186
+V<p>\u000a	math2py is a web2py app with web mathematical tools. It is designed as an easy to install and friendly web interface for python math modules including mpmath(r). math2py can be installed in almost every system supporting python 2.4 or newer versions like Google App Engine(r) . Released under de terms of AGPLv3 license</p>\u000a<p>\u000a	Developed with web2py</p>\u000a<p>\u000a	This project repository contains code from other Python and JavaScript<a href="http://code.google.com/p/math2py/w/edit/JavaScript">?</a> packages as <a href="http://code.google.com/p/flot" rel="nofollow">flot</a> and <a href="http://code.google.com/p/mpmath" rel="nofollow">mpmath</a> to satisfy dependencies. For license information on each project source code please visit the referred project sites.</p>\u000a
+p187
+sVpypi
+p188
+V
+sVis_active
+p189
+I01
+sVmodified_on
+p190
+NsVarticle_id
+p191
+I1659
+sVlicense_version
+p192
+V3
+sVmarkup
+p193
+Vhtml
+p194
+sVdocumentation
+p195
+V
+sVlicense_url
+p196
+Vhttp://www.gnu.org/licenses/agpl-3.0.txt
+p197
+sVqualification
+p198
+(lp199
+sVrepository_page
+p200
+Vhttp://code.google.com/p/math2py/
+p201
+sVlicense_type
+p202
+Vagpl
+p203
+sVrepository_project
+p204
+Vmath2py
+p205
+ssa(dp206
+Varticle
+p207
+(dp208
+Vfavorited
+p209
+I1
+sVdislikes
+p210
+I0
+sVauthor_nickname
+p211
+NsVfeatured
+p212
+I00
+sVlikes
+p213
+I1
+sVkeywords
+p214
+NsVid
+p215
+I1669
+sVdescription
+p216
+VA client-side api for web2py crud services
+p217
+sVmodified_by
+p218
+NsVauthor
+p219
+I1013
+sVviews
+p220
+I3785
+sVcreated_by
+p221
+I1013
+sVdraft
+p222
+I00
+sVpublish_date
+p223
+NsVblocked
+p224
+I00
+sVthumbnail
+p225
+NsVpicture
+p226
+V
+sVresponses
+p227
+I0
+sVsubscriptions
+p228
+I0
+sVis_active
+p229
+I01
+sVcontent_type
+p230
+NsVmodified_on
+p231
+NsVslug
+p232
+Vplugin-clientapi
+p233
+sVtags
+p234
+(lp235
+Vclient
+p236
+aVapi
+p237
+aVjavascript
+p238
+asVcontent_type_id
+p239
+I4
+sVlicense
+p240
+V1
+sVprivacy
+p241
+NsVcreated_on
+p242
+NsVmedium_thumbnail
+p243
+NsVpublish_tz
+p244
+NsVtitle
+p245
+Vplugin-clientapi
+p246
+sVcategory_id
+p247
+(lp248
+ssVpackage_data
+p249
+(dp250
+Vpackage_type
+p251
+Vplugin
+p252
+sVtype_id
+p253
+I4
+sVdemo
+p254
+V
+sVdownload
+p255
+Vhttp://code.google.com/p/plugin-clientapi/downloads/list
+p256
+sVcreated_on
+p257
+NsVrepository_url
+p258
+Vhttps://code.google.com/p/plugin-clientapi/
+p259
+sVscreenshots
+p260
+(lp261
+sVid
+p262
+I5
+sVmodified_by
+p263
+I1013
+sVlicense_body
+p264
+Vplugin_clientapi: web2py simple JS client\u000aCopyright (C) 2013 Alan Etkin\u000a\u000aThis program is free software: you can redistribute it and/or modify\u000ait under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\u000a\u000aThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of\u000aMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\u000a\u000aYou should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.\u000a
+p265
+sVcreated_by
+p266
+I1013
+sVrepository_brand
+p267
+Vhg
+p268
+sVbody
+p269
+V<h2>\u000a	A simple javascript client for web2py apps</h2>\u000a<p>\u000a	plugin_clientapi is a multi-purpose client interface for handling web2py services from client frameworks or any javascript client software. It supports remote database queries, full database scheme and form retrieval, submission and validation with Ajax.</p>\u000a<p>\u000a	It takes advantage of web2py data serialization api to perform client-server data comunications in a simple and efficient way.</p>\u000a<h2>\u000a	<a name="Examples"></a>Examples</h2>\u000a<p>\u000a	Retrieving and submitting a form without user intervention requires a few lines:</p>\u000a<pre class="prettyprint"><span class="pln">w2pClientAPI</span><span class="pun">.</span><span class="pln">onNewForm </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(){</span>\u000a<span class="pln">&nbsp; w2pClientAPI</span><span class="pun">.</span><span class="pln">form</span><span class="pun">.</span><span class="pln">vars</span><span class="pun">.</span><span class="pln">runny </span><span class="pun">=</span><span class="pln"> </span><span class="str">&quot;very&quot;</span><span class="pun">;</span>\u000a<span class="pln">&nbsp; w2pClientAPI</span><span class="pun">.</span><span class="pln">submit</span><span class="pun">();</span>\u000a<span class="pun">}</span>\u000a<span class="pln">w2pClientAPI</span><span class="pun">.</span><span class="pln">newForm</span><span class="pun">(</span><span class="str">&quot;db&quot;</span><span class="pun">,</span><span class="pln"> </span><span class="str">&quot;cheese&quot;</span><span class="pun">);</span></pre>\u000a<p>\u000a	Retrieving data is also simple</p>\u000a<pre class="prettyprint"><span class="pln">w2pClientAPI</span><span class="pun">.</span><span class="pln">query</span><span class="pun">(</span><span class="str">&quot;db&quot;</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="str">&quot;first&quot;</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="str">&quot;tablename&quot;</span><span class="pun">:</span><span class="pln"> </span><span class="str">&quot;cheese&quot;</span><span class="pun">,</span>\u000a<span class="pln">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="str">&quot;fieldname&quot;</span><span class="pun">:</span><span class="pln"> </span><span class="str">&quot;id&quot;</span><span class="pun">},</span>\u000a<span class="pln">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="str">&quot;op&quot;</span><span class="pun">:</span><span class="pln"> </span><span class="str">&quot;GT&quot;</span><span class="pun">,</span>\u000a<span class="pln">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="str">&quot;second&quot;</span><span class="pun">:</span><span class="pln"> </span><span class="lit">0</span><span class="pun">},</span>\u000a<span class="pln">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;myCallback</span><span class="pun">);</span></pre>\u000a<p>\u000a	For a full guide go to <a href="http://code.google.com/p/plugin-clientapi/wiki/ClientapiHowTo">ClientapiHowTo</a></p>\u000a<h2>\u000a	<a name="License"></a>License</h2>\u000a<p>\u000a	This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>\u000a
+p270
+sVpypi
+p271
+V
+sVis_active
+p272
+I01
+sVmodified_on
+p273
+NsVarticle_id
+p274
+I1669
+sVlicense_version
+p275
+V3
+sVmarkup
+p276
+Vhtml
+p277
+sVdocumentation
+p278
+Vhttp://code.google.com/p/plugin-clientapi/w/list
+p279
+sVlicense_url
+p280
+Vhttp://www.gnu.org/licenses/agpl-3.0.html
+p281
+sVqualification
+p282
+(lp283
+sVrepository_page
+p284
+Vhttp://code.google.com/p/plugin-clientapi
+p285
+sVlicense_type
+p286
+Vagpl
+p287
+sVrepository_project
+p288
+Vplugin-clientapi
+p289
+ssa(dp290
+Varticle
+p291
+(dp292
+Vfavorited
+p293
+I0
+sVdislikes
+p294
+I0
+sVauthor_nickname
+p295
+NsVfeatured
+p296
+I00
+sVlikes
+p297
+I0
+sVkeywords
+p298
+NsVid
+p299
+I1672
+sVdescription
+p300
+VA nice way to use date(time) validators with timezones in your application
+p301
+sVmodified_by
+p302
+NsVauthor
+p303
+I1589
+sVviews
+p304
+I2494
+sVcreated_by
+p305
+I1589
+sVdraft
+p306
+I00
+sVpublish_date
+p307
+NsVblocked
+p308
+I00
+sVthumbnail
+p309
+NsVpicture
+p310
+V
+sVresponses
+p311
+I0
+sVsubscriptions
+p312
+I0
+sVis_active
+p313
+I01
+sVcontent_type
+p314
+NsVmodified_on
+p315
+NsVslug
+p316
+Vw2p-timezone-plugin
+p317
+sVtags
+p318
+(lp319
+Vtimezones
+p320
+asVcontent_type_id
+p321
+I4
+sVlicense
+p322
+V2
+sVprivacy
+p323
+NsVcreated_on
+p324
+NsVmedium_thumbnail
+p325
+NsVpublish_tz
+p326
+NsVtitle
+p327
+Vw2p_timezone_plugin
+p328
+sVcategory_id
+p329
+(lp330
+I41
+assVpackage_data
+p331
+(dp332
+Vpackage_type
+p333
+Vplugin
+p334
+sVtype_id
+p335
+I4
+sVdemo
+p336
+V
+sVdownload
+p337
+Vhttps://github.com/niphlod/w2p_timezone_plugin/releases/download/1.0.1/web2py.plugin.timezone.w2p
+p338
+sVcreated_on
+p339
+NsVrepository_url
+p340
+Vgit@github.com:niphlod/w2p_timezone_plugin.git
+p341
+sVscreenshots
+p342
+(lp343
+sVid
+p344
+I8
+sVmodified_by
+p345
+I1589
+sVlicense_body
+p346
+V
+sVcreated_by
+p347
+I1589
+sVrepository_brand
+p348
+Vgit
+p349
+sVbody
+p350
+V
+sVpypi
+p351
+V
+sVis_active
+p352
+I01
+sVmodified_on
+p353
+NsVarticle_id
+p354
+I1672
+sVlicense_version
+p355
+V
+sVmarkup
+p356
+Vhtml
+p357
+sVdocumentation
+p358
+Vhttps://github.com/niphlod/w2p_timezone_plugin/blob/master/README.md
+p359
+sVlicense_url
+p360
+V
+sVqualification
+p361
+(lp362
+sVrepository_page
+p363
+Vhttps://github.com/niphlod/w2p_timezone_plugin
+p364
+sVlicense_type
+p365
+Vlgpl
+p366
+sVrepository_project
+p367
+Vw2p_timezone_plugin
+p368
+ssa(dp369
+Varticle
+p370
+(dp371
+Vfavorited
+p372
+I0
+sVdislikes
+p373
+I0
+sVauthor_nickname
+p374
+NsVfeatured
+p375
+I00
+sVlikes
+p376
+I0
+sVkeywords
+p377
+NsVid
+p378
+I1674
+sVdescription
+p379
+VStopForumSpam plugin for web2py
+p380
+sVmodified_by
+p381
+NsVauthor
+p382
+I1589
+sVviews
+p383
+I2065
+sVcreated_by
+p384
+I1589
+sVdraft
+p385
+I00
+sVpublish_date
+p386
+NsVblocked
+p387
+I00
+sVthumbnail
+p388
+NsVpicture
+p389
+V
+sVresponses
+p390
+I0
+sVsubscriptions
+p391
+I0
+sVis_active
+p392
+I01
+sVcontent_type
+p393
+NsVmodified_on
+p394
+NsVslug
+p395
+Vw2p-sfs-plugin
+p396
+sVtags
+p397
+(lp398
+Vspam
+p399
+asVcontent_type_id
+p400
+I4
+sVlicense
+p401
+V2
+sVprivacy
+p402
+NsVcreated_on
+p403
+NsVmedium_thumbnail
+p404
+NsVpublish_tz
+p405
+NsVtitle
+p406
+Vw2p_SFS_plugin
+p407
+sVcategory_id
+p408
+(lp409
+I41
+assVpackage_data
+p410
+(dp411
+Vpackage_type
+p412
+Vplugin
+p413
+sVtype_id
+p414
+I4
+sVdemo
+p415
+V
+sVdownload
+p416
+Vhttps://github.com/niphlod/w2p_SFS_plugin/releases/download/0.0.1/web2py.plugin.stopforumspam.w2p
+p417
+sVcreated_on
+p418
+NsVrepository_url
+p419
+Vgit@github.com:niphlod/w2p_SFS_plugin.git
+p420
+sVscreenshots
+p421
+(lp422
+sVid
+p423
+I10
+sVmodified_by
+p424
+I1589
+sVlicense_body
+p425
+V
+sVcreated_by
+p426
+I1589
+sVrepository_brand
+p427
+Vgit
+p428
+sVbody
+p429
+V
+sVpypi
+p430
+V
+sVis_active
+p431
+I01
+sVmodified_on
+p432
+NsVarticle_id
+p433
+I1674
+sVlicense_version
+p434
+V
+sVmarkup
+p435
+Vhtml
+p436
+sVdocumentation
+p437
+Vhttps://github.com/niphlod/w2p_SFS_plugin/blob/master/README.md
+p438
+sVlicense_url
+p439
+V
+sVqualification
+p440
+(lp441
+sVrepository_page
+p442
+Vhttps://github.com/niphlod/w2p_SFS_plugin
+p443
+sVlicense_type
+p444
+Vlgpl
+p445
+sVrepository_project
+p446
+Vw2p_SFS_plugin
+p447
+ssa(dp448
+Varticle
+p449
+(dp450
+Vfavorited
+p451
+I0
+sVdislikes
+p452
+I0
+sVauthor_nickname
+p453
+NsVfeatured
+p454
+I00
+sVlikes
+p455
+I1
+sVkeywords
+p456
+NsVid
+p457
+I1675
+sVdescription
+p458
+VWeb2py plugin to monitor the scheduler
+p459
+sVmodified_by
+p460
+NsVauthor
+p461
+I1589
+sVviews
+p462
+I3569
+sVcreated_by
+p463
+I1589
+sVdraft
+p464
+I00
+sVpublish_date
+p465
+NsVblocked
+p466
+I00
+sVthumbnail
+p467
+NsVpicture
+p468
+V
+sVresponses
+p469
+I0
+sVsubscriptions
+p470
+I0
+sVis_active
+p471
+I01
+sVcontent_type
+p472
+NsVmodified_on
+p473
+NsVslug
+p474
+Vw2p-cs-monitor-plugin
+p475
+sVtags
+p476
+(lp477
+Vscheduler
+p478
+asVcontent_type_id
+p479
+I4
+sVlicense
+p480
+V2
+sVprivacy
+p481
+NsVcreated_on
+p482
+NsVmedium_thumbnail
+p483
+NsVpublish_tz
+p484
+NsVtitle
+p485
+Vw2p_cs_monitor_plugin
+p486
+sVcategory_id
+p487
+(lp488
+I41
+assVpackage_data
+p489
+(dp490
+Vpackage_type
+p491
+Vplugin
+p492
+sVtype_id
+p493
+I4
+sVdemo
+p494
+V
+sVdownload
+p495
+Vhttps://github.com/niphlod/cs_monitor_plugin/releases/download/2.0.1/web2py.plugin.cs_monitor.w2p
+p496
+sVcreated_on
+p497
+NsVrepository_url
+p498
+Vgit@github.com:niphlod/cs_monitor_plugin.git
+p499
+sVscreenshots
+p500
+(lp501
+sVid
+p502
+I11
+sVmodified_by
+p503
+I1589
+sVlicense_body
+p504
+V
+sVcreated_by
+p505
+I1589
+sVrepository_brand
+p506
+Vgit
+p507
+sVbody
+p508
+V
+sVpypi
+p509
+V
+sVis_active
+p510
+I01
+sVmodified_on
+p511
+NsVarticle_id
+p512
+I1675
+sVlicense_version
+p513
+V
+sVmarkup
+p514
+Vhtml
+p515
+sVdocumentation
+p516
+Vhttps://github.com/niphlod/cs_monitor_plugin/blob/master/README.md
+p517
+sVlicense_url
+p518
+V
+sVqualification
+p519
+(lp520
+sVrepository_page
+p521
+Vhttps://github.com/niphlod/cs_monitor_plugin
+p522
+sVlicense_type
+p523
+Vlgpl
+p524
+sVrepository_project
+p525
+Vcs_monitor_plugin
+p526
+ssa(dp527
+Varticle
+p528
+(dp529
+Vfavorited
+p530
+I0
+sVdislikes
+p531
+I0
+sVauthor_nickname
+p532
+NsVfeatured
+p533
+I00
+sVlikes
+p534
+I1
+sVkeywords
+p535
+NsVid
+p536
+I1713
+sVdescription
+p537
+VAllows you to open a web2py form in a dialog box by calling getdialog(url). Also includes functions to convert web2py grid buttons to call getdialog(url). Click download and install the plugin OR pull source from the mercurial link which is a copy of the welcome app with the plugin.
+p538
+sVmodified_by
+p539
+NsVauthor
+p540
+I978
+sVviews
+p541
+I6008
+sVcreated_by
+p542
+I978
+sVdraft
+p543
+I00
+sVpublish_date
+p544
+NsVblocked
+p545
+I00
+sVthumbnail
+p546
+NsVpicture
+p547
+V
+sVresponses
+p548
+I0
+sVsubscriptions
+p549
+I2
+sVis_active
+p550
+I01
+sVcontent_type
+p551
+NsVmodified_on
+p552
+NsVslug
+p553
+Vplugin-to-use-dialog-boxes-with-grids
+p554
+sVtags
+p555
+(lp556
+sVcontent_type_id
+p557
+I4
+sVlicense
+p558
+V1
+sVprivacy
+p559
+NsVcreated_on
+p560
+NsVmedium_thumbnail
+p561
+NsVpublish_tz
+p562
+NsVtitle
+p563
+Vplugin to use dialog boxes with grids
+p564
+sVcategory_id
+p565
+(lp566
+ssVpackage_data
+p567
+(dp568
+Vpackage_type
+p569
+Vplugin
+p570
+sVtype_id
+p571
+I4
+sVdemo
+p572
+V
+sVdownload
+p573
+Vhttps://bitbucket.org/simonm3/plugin_dialog/downloads/web2py.plugin.dialog.w2p
+p574
+sVcreated_on
+p575
+NsVrepository_url
+p576
+Vhttps://simonm3@bitbucket.org/simonm3/plugin_dialog
+p577
+sVscreenshots
+p578
+(lp579
+sVid
+p580
+I14
+sVmodified_by
+p581
+I978
+sVlicense_body
+p582
+V
+sVcreated_by
+p583
+I978
+sVrepository_brand
+p584
+Vhg
+p585
+sVbody
+p586
+V
+sVpypi
+p587
+V
+sVis_active
+p588
+I01
+sVmodified_on
+p589
+NsVarticle_id
+p590
+I1713
+sVlicense_version
+p591
+V
+sVmarkup
+p592
+Vhtml
+p593
+sVdocumentation
+p594
+Vhttps://bitbucket.org/simonm3/plugin_dialog/wiki/Home
+p595
+sVlicense_url
+p596
+V
+sVqualification
+p597
+(lp598
+sVrepository_page
+p599
+V
+sVlicense_type
+p600
+Vgpl
+p601
+sVrepository_project
+p602
+Vplugin_dialog
+p603
+ssa(dp604
+Varticle
+p605
+(dp606
+Vfavorited
+p607
+I0
+sVdislikes
+p608
+I0
+sVauthor_nickname
+p609
+NsVfeatured
+p610
+I00
+sVlikes
+p611
+I1
+sVkeywords
+p612
+NsVid
+p613
+I1717
+sVdescription
+p614
+VAdds file area to bottom of a web2py form. Multiple files can be dragged/dropped from the desktop or from web pages including documents and inline images.
+p615
+sVmodified_by
+p616
+NsVauthor
+p617
+I978
+sVviews
+p618
+I4614
+sVcreated_by
+p619
+I978
+sVdraft
+p620
+I00
+sVpublish_date
+p621
+NsVblocked
+p622
+I00
+sVthumbnail
+p623
+NsVpicture
+p624
+V
+sVresponses
+p625
+I0
+sVsubscriptions
+p626
+I0
+sVis_active
+p627
+I01
+sVcontent_type
+p628
+NsVmodified_on
+p629
+NsVslug
+p630
+Vplugin-to-dragdrop-multiple-files-as-attachments-to-a-web2py-form
+p631
+sVtags
+p632
+(lp633
+sVcontent_type_id
+p634
+I4
+sVlicense
+p635
+V1
+sVprivacy
+p636
+NsVcreated_on
+p637
+NsVmedium_thumbnail
+p638
+NsVpublish_tz
+p639
+NsVtitle
+p640
+VPlugin to drag/drop multiple files as attachments to a web2py form
+p641
+sVcategory_id
+p642
+(lp643
+ssVpackage_data
+p644
+(dp645
+Vpackage_type
+p646
+Vplugin
+p647
+sVtype_id
+p648
+I4
+sVdemo
+p649
+V
+sVdownload
+p650
+Vhttps://bitbucket.org/simonm3/plugin_attachment/downloads/web2py.plugin.attachment.w2p
+p651
+sVcreated_on
+p652
+NsVrepository_url
+p653
+Vhttps://bitbucket.org/simonm3/plugin_attachment/src
+p654
+sVscreenshots
+p655
+(lp656
+sVid
+p657
+I15
+sVmodified_by
+p658
+I978
+sVlicense_body
+p659
+V
+sVcreated_by
+p660
+I978
+sVrepository_brand
+p661
+Vhg
+p662
+sVbody
+p663
+V
+sVpypi
+p664
+V
+sVis_active
+p665
+I01
+sVmodified_on
+p666
+NsVarticle_id
+p667
+I1717
+sVlicense_version
+p668
+V
+sVmarkup
+p669
+Vhtml
+p670
+sVdocumentation
+p671
+Vhttps://bitbucket.org/simonm3/plugin_attachment/wiki/Home
+p672
+sVlicense_url
+p673
+V
+sVqualification
+p674
+(lp675
+sVrepository_page
+p676
+V
+sVlicense_type
+p677
+Vgpl
+p678
+sVrepository_project
+p679
+Vplugin_attachment
+p680
+ssa(dp681
+Varticle
+p682
+(dp683
+Vfavorited
+p684
+I1
+sVdislikes
+p685
+I0
+sVauthor_nickname
+p686
+NsVfeatured
+p687
+I00
+sVlikes
+p688
+I4
+sVkeywords
+p689
+NsVid
+p690
+I1721
+sVdescription
+p691
+Vajax plugin for google charts via LOAD. Tested on 2.6 to 2.8
+p692
+sVmodified_by
+p693
+NsVauthor
+p694
+I1581
+sVviews
+p695
+I10254
+sVcreated_by
+p696
+I1581
+sVdraft
+p697
+I00
+sVpublish_date
+p698
+NsVblocked
+p699
+I00
+sVthumbnail
+p700
+Varticle.picture.b07d771c809eca7c.53637265656e2053686f7420323031332d31302d303420617420362e34392e333620414d2e706e67_thumb.png
+p701
+sVpicture
+p702
+Varticle.picture.b07d771c809eca7c.53637265656e2053686f7420323031332d31302d303420617420362e34392e333620414d2e706e67.png
+p703
+sVresponses
+p704
+I0
+sVsubscriptions
+p705
+I4
+sVis_active
+p706
+I01
+sVcontent_type
+p707
+NsVmodified_on
+p708
+NsVslug
+p709
+Vgoogle-charts-plugin
+p710
+sVtags
+p711
+(lp712
+sVcontent_type_id
+p713
+I4
+sVlicense
+p714
+V1
+sVprivacy
+p715
+NsVcreated_on
+p716
+NsVmedium_thumbnail
+p717
+Varticle.picture.b07d771c809eca7c.53637265656e2053686f7420323031332d31302d303420617420362e34392e333620414d2e706e67_medium_thumb.png
+p718
+sVpublish_tz
+p719
+NsVtitle
+p720
+VGoogle Charts plugin
+p721
+sVcategory_id
+p722
+(lp723
+ssVpackage_data
+p724
+(dp725
+Vpackage_type
+p726
+Vplugin
+p727
+sVtype_id
+p728
+I4
+sVdemo
+p729
+V
+sVdownload
+p730
+Vhttps://github.com/timrichardson/google_charts_plugin/releases/download/1.0.2/web2py.plugin.google_chart.w2p
+p731
+sVcreated_on
+p732
+NsVrepository_url
+p733
+Vhttps://github.com/timrichardson/google_charts_plugin/
+p734
+sVscreenshots
+p735
+(lp736
+sVid
+p737
+I16
+sVmodified_by
+p738
+I1581
+sVlicense_body
+p739
+V
+sVcreated_by
+p740
+I1581
+sVrepository_brand
+p741
+Vgit
+p742
+sVbody
+p743
+V<p>\u000a	This is a simple plugin to use Google Charts.</p>\u000a<p>\u000a	Based on web2py 2.6.4</p>\u000a<h2>\u000a	<img alt="" src="https://f.cloud.github.com/assets/927458/1266233/d70fcb02-2c80-11e3-9b6d-a5865a419a6e.png" style="width: 972px; height: 425px;" /></h2>\u000a<h2>\u000a	Usage</h2>\u000a<p>\u000a	You need to install the plugin, write a controller function which returns the data to be charted, and set up any options to pass to the chart.</p>\u000a<p>\u000a	There are examples included. Multiple charts per page is ok.</p>\u000a<p>\u000a	Usage in a view looks like this two-chart view:</p>\u000a<div>\u000a	<pre class="prettyprint linenums">{{extend &#39;layout.html&#39;}}\u000a&lt;!-- need to source this in any view which has a LOAD chart --&gt;\u000a&lt;script src=&quot;https://www.google.com/jsapi&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;\u000a\u000a&lt;!-- Here, data and options same for both charts --&gt;\u000a&lt;!-- user_signature works if using logged-in users ... not well tested --&gt;\u000a{{ data_url = URL(&#39;plugin_google_chart&#39;,&#39;plugin_return_data.json&#39;,user_signature=True)\u000a  #options are documented at https://developers.google.com/chart/\u000a  options ={&#39;title&#39;:&#39;Sales vs Expenses&#39;,&#39;width&#39;:0,&#39;height&#39;:0}\u000a          }}\u000a\u000a&lt;div class=&quot;span6&quot;&gt;\u000a{{=LOAD(&#39;plugin_google_chart&#39;,&#39;plugin_google_chart.load&#39;,ajax=True,\u000a        user_signature=True,vars={&#39;type&#39;:&#39;bar&#39;,&#39;data_url&#39;:data_url,\u000a        &#39;options_dict&#39;:options})\u000a}}\u000a&lt;/div&gt;\u000a\u000a&lt;div class=&quot;span6&quot;&gt;\u000a{{=LOAD(&#39;plugin_google_chart&#39;,&#39;plugin_google_chart.load&#39;,user_signature=True,ajax=True,\u000a    vars={&#39;type&#39;:&#39;column&#39;,&#39;data_url&#39;:data_url,&#39;options_dict&#39;:options})\u000a}}\u000a&lt;/div&gt;</pre>\u000a	<p>\u000a		&nbsp;</p>\u000a	<p>\u000a		This example above uses a function plugin_return_data in the plugin controller so you can look at that to see how to send data to a chart. In your own apps, you need to provide this function, which means replacing data_url with your own.</p>\u000a	<p>\u000a		The type of the chart is provided in the LOAD url in vars; look at the plugin_google_chart.load to see which types I have included.&nbsp;</p>\u000a</div>\u000a<h2>\u000a	Installing the plugin</h2>\u000a<p>\u000a	A plugin is simply files in directories; by uploading a plugin to an app, the web2py admin application installs those files in a given application as if you had put them there yourself. The plugin file is on the releases section of the GitHub repository. Use the Download link above to get the .w2p file</p>\u000a<p>\u000a	&nbsp;</p>\u000a<p>\u000a	In this case the plugin will add one controller and one view to your app.</p>\u000a<p>\u000a	The controller includes the function&nbsp;plugin_google_chart() which works with the view plugin_google_chart.load to display the chart.&nbsp;</p>\u000a<p>\u000a	The other content in the controller is just example/tutorial content.&nbsp;</p>\u000a<h2>\u000a	Improving and extending it (add more chart types)</h2>\u000a<p>\u000a	&nbsp;</p>\u000a<p>\u000a	The view plugin_google_chart.load has the important logic.</p>\u000a<p>\u000a	There is a switch which handles the different chart types. You can easily extend it.</p>\u000a<p>\u000a	&nbsp;</p>\u000a
+p744
+sVpypi
+p745
+V
+sVis_active
+p746
+I01
+sVmodified_on
+p747
+NsVarticle_id
+p748
+I1721
+sVlicense_version
+p749
+V
+sVmarkup
+p750
+Vhtml
+p751
+sVdocumentation
+p752
+V
+sVlicense_url
+p753
+V
+sVqualification
+p754
+(lp755
+sVrepository_page
+p756
+Vhttps://github.com/timrichardson/google_charts_plugin/releases
+p757
+sVlicense_type
+p758
+Vgpl
+p759
+sVrepository_project
+p760
+VGoogle Charts plugin
+p761
+ssa(dp762
+Varticle
+p763
+(dp764
+Vfavorited
+p765
+I0
+sVdislikes
+p766
+I0
+sVauthor_nickname
+p767
+NsVfeatured
+p768
+I00
+sVlikes
+p769
+I0
+sVkeywords
+p770
+NsVid
+p771
+I1851
+sVdescription
+p772
+VConnects jQuery's jsviews MVVM client-side framework to the server using a REST interface. Models can be loaded from a server-side REST interface. Changes to the model will be transparently reflected in both the connected views and also made to the server. Changes by the user in the views will be transparently reflected in the connected models and also made to the server.
+p773
+sVmodified_by
+p774
+I2062
+sVauthor
+p775
+I2062
+sVviews
+p776
+I2
+sVcreated_by
+p777
+I2062
+sVdraft
+p778
+I01
+sVpublish_date
+p779
+NsVblocked
+p780
+I00
+sVthumbnail
+p781
+NsVpicture
+p782
+V
+sVresponses
+p783
+I0
+sVsubscriptions
+p784
+I0
+sVis_active
+p785
+I00
+sVcontent_type
+p786
+NsVmodified_on
+p787
+NsVslug
+p788
+Vdynamic-rest
+p789
+sVtags
+p790
+(lp791
+sVcontent_type_id
+p792
+I4
+sVlicense
+p793
+V3
+sVprivacy
+p794
+NsVcreated_on
+p795
+NsVmedium_thumbnail
+p796
+NsVpublish_tz
+p797
+NsVtitle
+p798
+VDynamic REST
+p799
+sVcategory_id
+p800
+(lp801
+ssVpackage_data
+p802
+(dp803
+Vpackage_type
+p804
+Vplugin
+p805
+sVtype_id
+p806
+I4
+sVdemo
+p807
+V
+sVdownload
+p808
+V
+sVcreated_on
+p809
+NsVrepository_url
+p810
+Vhttps://github.com/childsish/web2py_plugin_dynamic_rest.git
+p811
+sVscreenshots
+p812
+(lp813
+sVid
+p814
+I19
+sVmodified_by
+p815
+I2062
+sVlicense_body
+p816
+V
+sVcreated_by
+p817
+I2062
+sVrepository_brand
+p818
+Vgit
+p819
+sVbody
+p820
+V<h6>\u000a	Usage</h6>\u000a<p>\u000a	Put this in db.py</p>\u000a<pre class="prettyprint linenums">db.define_table(&#39;person&#39;,\u000a    Field(&#39;name&#39;),\u000a    format=&#39;%(name)s&#39;)</pre>\u000a<p>\u000a	Put this in the default controller.</p>\u000a<pre class="prettyprint linenums">@request.restful()\u000adef api():\u000a    from plugin_dynamic_rest.dynamic_rest import DynamicRest\u000a    dynamic_rest = DynamicRest(db)\u000a    dynamic_rest.registerTable(db.person, [&#39;GET&#39;, &#39;POST&#39;, &#39;PUT&#39;, &#39;DELETE&#39;])\u000a    return dynamic_rest.getActions()\u000a</pre>\u000a<p>\u000a	Use this as the default index.html</p>\u000a<pre class="prettyprint linenums">{{left_sidebar_enabled,right_sidebar_enabled=False,False}}\u000a{{extend &#39;layout.html&#39;}}\u000a\u000a&lt;script src=&quot;{{=URL(&#39;static&#39;, &#39;js/jsviews.min.js&#39;)}}&quot;&gt;&lt;/script&gt;\u000a&lt;script src=&quot;{{=URL(&#39;static&#39;, &#39;plugin_dynamic_rest/js/dynamic_rest.js&#39;)}}&quot;&gt;&lt;/script&gt;\u000a\u000a&lt;script id=&quot;test_template&quot; type=&quot;text/x-jsrender&quot;&gt;\u000a[^[for people]]\u000a	&lt;div&gt;\u000a		&lt;input data-link=&quot;name&quot;/&gt;\u000a		&lt;button id=&quot;element_[[:id]]&quot; class=&quot;delete&quot;&gt;X&lt;/button&gt;\u000a	&lt;/div&gt;\u000a[[/for]]\u000a&lt;/script&gt;\u000a\u000a&lt;script&gt;\u000a$.views.settings.delimiters(&#39;[[&#39;, &#39;]]&#39;);\u000a\u000avar people = DynamicRest(&quot;{{=URL(&#39;default&#39;, &#39;api.json&#39;, args=[&#39;person&#39;])}}&quot;);\u000a\u000a$(function() {\u000a	var test_template = $.templates(&quot;#test_template&quot;);\u000a\u000a	var test_data = {\u000a		people: people\u000a	};\u000a	\u000a	test_template.link(&quot;#test_target&quot;, test_data)\u000a		.on(&quot;click&quot;, &quot;.delete&quot;, function() {\u000a		    var view = $.view(this);\u000a		    $.observable(test_data.people).remove(view.index);\u000a		});\u000a	\u000a	$(&#39;#test_button&#39;).click(function() {\u000a		people.insort({name: &#39;New person&#39;});\u000a	});\u000a});\u000a&lt;/script&gt;\u000a\u000a&lt;button id=&#39;test_button&#39;&gt;Add Element&lt;/button&gt;\u000a&lt;div id=&quot;test_target&quot;&gt;\u000a	\u000a&lt;/div&gt;\u000a</pre>\u000a
+p821
+sVpypi
+p822
+V
+sVis_active
+p823
+I01
+sVmodified_on
+p824
+NsVarticle_id
+p825
+I1851
+sVlicense_version
+p826
+V
+sVmarkup
+p827
+Vhtml
+p828
+sVdocumentation
+p829
+V
+sVlicense_url
+p830
+V
+sVqualification
+p831
+(lp832
+sVrepository_page
+p833
+Vhttps://github.com/childsish/web2py_plugin_dynamic_rest
+p834
+sVlicense_type
+p835
+Vgpl
+p836
+sVrepository_project
+p837
+Vdynamic_rest
+p838
+ssa(dp839
+Varticle
+p840
+(dp841
+Vfavorited
+p842
+I0
+sVdislikes
+p843
+I0
+sVauthor_nickname
+p844
+NsVfeatured
+p845
+I00
+sVlikes
+p846
+I1
+sVkeywords
+p847
+NsVid
+p848
+I1855
+sVdescription
+p849
+VConnects jsviews MVVM to the server. Dynamically updates the server whenever the client changes data.
+p850
+sVmodified_by
+p851
+NsVauthor
+p852
+I2062
+sVviews
+p853
+I5021
+sVcreated_by
+p854
+I2062
+sVdraft
+p855
+I00
+sVpublish_date
+p856
+NsVblocked
+p857
+I00
+sVthumbnail
+p858
+NsVpicture
+p859
+V
+sVresponses
+p860
+I0
+sVsubscriptions
+p861
+I0
+sVis_active
+p862
+I01
+sVcontent_type
+p863
+NsVmodified_on
+p864
+NsVslug
+p865
+Vdynamic-rest
+p866
+sVtags
+p867
+(lp868
+Vjsviews
+p869
+aVmvvm
+p870
+aVrest
+p871
+asVcontent_type_id
+p872
+I4
+sVlicense
+p873
+V3
+sVprivacy
+p874
+NsVcreated_on
+p875
+NsVmedium_thumbnail
+p876
+NsVpublish_tz
+p877
+NsVtitle
+p878
+VDynamic REST
+p879
+sVcategory_id
+p880
+(lp881
+ssVpackage_data
+p882
+(dp883
+Vpackage_type
+p884
+Vplugin
+p885
+sVtype_id
+p886
+I4
+sVdemo
+p887
+V
+sVdownload
+p888
+Vhttps://github.com/childsish/web2py_plugin_dynamic_rest/archive/master.zip
+p889
+sVcreated_on
+p890
+NsVrepository_url
+p891
+Vhttps://github.com/childsish/web2py_plugin_dynamic_rest.git
+p892
+sVscreenshots
+p893
+(lp894
+sVid
+p895
+I20
+sVmodified_by
+p896
+I2062
+sVlicense_body
+p897
+V
+sVcreated_by
+p898
+I2062
+sVrepository_brand
+p899
+Vgit
+p900
+sVbody
+p901
+V
+sVpypi
+p902
+V
+sVis_active
+p903
+I01
+sVmodified_on
+p904
+NsVarticle_id
+p905
+I1855
+sVlicense_version
+p906
+V
+sVmarkup
+p907
+Vhtml
+p908
+sVdocumentation
+p909
+Vhttps://github.com/childsish/web2py_plugin_dynamic_rest/blob/master/README.plugin_dynamic_rest.md
+p910
+sVlicense_url
+p911
+V
+sVqualification
+p912
+(lp913
+sVrepository_page
+p914
+Vhttps://github.com/childsish/web2py_plugin_dynamic_rest
+p915
+sVlicense_type
+p916
+Vgpl
+p917
+sVrepository_project
+p918
+Vdynamic_rest
+p919
+ssa(dp920
+Varticle
+p921
+(dp922
+Vfavorited
+p923
+I0
+sVdislikes
+p924
+I0
+sVauthor_nickname
+p925
+NsVfeatured
+p926
+I00
+sVlikes
+p927
+I1
+sVkeywords
+p928
+NsVid
+p929
+I1919
+sVdescription
+p930
+VAdd inline row editing capability to SQLFORM.grid
+p931
+sVmodified_by
+p932
+NsVauthor
+p933
+I1146
+sVviews
+p934
+I18198
+sVcreated_by
+p935
+I1146
+sVdraft
+p936
+I00
+sVpublish_date
+p937
+NsVblocked
+p938
+I00
+sVthumbnail
+p939
+Varticle.picture.b15916bfcc06a122.696e6c696e655f726f775f656469742e706e67_thumb.png
+p940
+sVpicture
+p941
+Varticle.picture.b15916bfcc06a122.696e6c696e655f726f775f656469742e706e67.png
+p942
+sVresponses
+p943
+I0
+sVsubscriptions
+p944
+I0
+sVis_active
+p945
+I01
+sVcontent_type
+p946
+NsVmodified_on
+p947
+NsVslug
+p948
+Vplugin-sqlform-inline
+p949
+sVtags
+p950
+(lp951
+Vsqlform
+p952
+aVplugins
+p953
+aVajax
+p954
+aVsqlform.grid
+p955
+asVcontent_type_id
+p956
+I4
+sVlicense
+p957
+V2
+sVprivacy
+p958
+NsVcreated_on
+p959
+NsVmedium_thumbnail
+p960
+Varticle.picture.b15916bfcc06a122.696e6c696e655f726f775f656469742e706e67_medium_thumb.png
+p961
+sVpublish_tz
+p962
+NsVtitle
+p963
+Vplugin_SQLFORM_INLINE
+p964
+sVcategory_id
+p965
+(lp966
+ssVpackage_data
+p967
+(dp968
+Vpackage_type
+p969
+Vplugin
+p970
+sVtype_id
+p971
+I4
+sVdemo
+p972
+V
+sVdownload
+p973
+V
+sVcreated_on
+p974
+NsVrepository_url
+p975
+Vhttps://github.com/pjryan126/plugin_SQLFORM_INLINE
+p976
+sVscreenshots
+p977
+(lp978
+Vhttps://github.com/pjryan126/plugin_SQLFORM_INLINE/blob/master/inline_row_add.png?raw=true
+p979
+aVhttps://github.com/pjryan126/plugin_SQLFORM_INLINE/blob/master/inline_row_edit.png?raw=true
+p980
+asVid
+p981
+I23
+sVmodified_by
+p982
+I1146
+sVlicense_body
+p983
+V
+sVcreated_by
+p984
+I1146
+sVrepository_brand
+p985
+Vgit
+p986
+sVbody
+p987
+V<h1>\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="6" style="font-size: 22pt">SQLFORM_INLINE</font></font></font></h1>\u000a<p align="JUSTIFY" style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 0.17in">\u000a	<font color="#333333"><font face="Arial, sans-serif"><font size="2">This is a&nbsp;web2py&nbsp;plugin&nbsp;leveraging the framework&#39;s ajax&nbsp;options to provide&nbsp;inline row editing functionality to the SQLFORM.grid method.&nbsp;It&nbsp;aims to&nbsp;provide the same features&nbsp;provided by web2py&#39;s&nbsp;SQLFORM.grid&nbsp;in addition to inline row editing. Because the inline edit feature loads a SQLFORM into the selected row, the plugin will work properly only when the grid includes fields from a single table.</font></font></font></p>\u000a<p align="JUSTIFY" style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 0.17in">\u000a	&nbsp;</p>\u000a<h2 class="western" style="margin-top: 0in; margin-bottom: 0in; font-variant: normal; font-style: normal; line-height: 0.38in;">\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="6" style="font-size: 22pt">Installation</font></font></font></h2>\u000a<p align="JUSTIFY" style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal">\u000a	<font color="#333333"><font face="Arial, sans-serif"><font size="2" style="font-size: 9pt">Download the .w2p file and install it as a plugin via the web2py interface.</font></font></font></p>\u000a<p align="JUSTIFY" style="margin-bottom: 0in">\u000a	&nbsp;</p>\u000a<h2 class="western" style="margin-top: 0in; margin-bottom: 0in; font-variant: normal; font-style: normal;">\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="6" style="font-size: 22pt">Update</font></font></font></h2>\u000a<p align="JUSTIFY" style="margin-bottom: 0.09in; font-variant: normal; font-style: normal; font-weight: normal">\u000a	<font color="#333333"><font face="Arial, sans-serif"><font size="2" style="font-size: 9pt">Use the installation procedure above and overwrite the plugin content in your web2py app.</font></font></font></p>\u000a<h2 class="western" style="margin-top: 0in; margin-bottom: 0in; font-variant: normal; font-style: normal;">\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="6" style="font-size: 22pt">Usage</font></font></font></h2>\u000a<p align="JUSTIFY" style="margin-bottom: 0.09in; font-variant: normal; font-style: normal; font-weight: normal">\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="2" style="font-size: 9pt">(1) Install the plugin.</font></font></font></p>\u000a<p align="JUSTIFY" style="margin-bottom: 0.09in; font-variant: normal; font-style: normal; font-weight: normal">\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="2" style="font-size: 9pt">(2) Import the SQLFORM_INLINE class to your controller.</font></font></font></p>\u000a<pre class="western" style="margin-bottom: 0.2in; font-variant: normal; font-style: normal; font-weight: normal">from plugin_SQLFORM_INLINE import SQLFORM_INLINE</pre>\u000a<p align="JUSTIFY" style="margin-bottom: 0.09in; font-variant: normal; font-style: normal; font-weight: normal">\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="2" style="font-size: 9pt">(3) Create a separate controller for each inline grid. If you plan to load more than one grid into a single controller, be sure to give each grid a unique formname.</font></font></font></p>\u000a<pre class="western" style="font-variant: normal; font-style: normal; font-weight: normal">def grid1():\u000a    <span style="font-style: normal"><span style="font-weight: normal">SQLFORM=SQLFORM_INLINE</span></span>\u000a    <span style="font-style: normal"><span style="font-weight: normal">grid1=SQLFORM.inline_grid(db.things, formname=&#39;grid1&#39;)</span></span>\u000a    <span style="font-style: normal"><span style="font-weight: normal">return dict(grid1=grid1)</span></span></pre>\u000a<p align="JUSTIFY" style="margin-bottom: 0.09in; font-variant: normal; font-style: normal; font-weight: normal">\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="2" style="font-size: 9pt">(4) Load the inline grid controller into your page using the web2py LOAD helper.</font></font></font></p>\u000a<pre class="western" style="font-variant: normal; font-style: normal; font-weight: normal">def index():\u000a    <span style="font-style: normal"><span style="font-weight: normal">grid1 = LOAD(f=&#39;grid1.load&#39;, ajax=True, ajax_trap=True)</span></span>\u000a    <span style="font-style: normal"><span style="font-weight: normal">return dict(grid1=grid1)</span></span></pre>\u000a<h2 class="western" style="margin-top: 0in; margin-bottom: 0in; font-variant: normal; font-style: normal;">\u000a	<font color="#333333"><font face="arial, helvetica, sans-serif"><font size="6" style="font-size: 22pt">Development Status</font></font></font></h2>\u000a<p align="JUSTIFY" style="font-variant: normal; font-style: normal; font-weight: normal; line-height: 0.19in">\u000a	<font color="#333333"><font face="Helvetica Neue, Helvetica, Arial, sans-serif"><font size="2" style="font-size: 9pt">This plugin is intended to provide the same functionality offered by SQLFORM.grid, but is not fully tested and is currently in its initial stage of development. The CSS styling, in particular, is still a little buggy outside of Chrome.</font></font></font></p>\u000a<p align="JUSTIFY" style="margin-bottom: 0.09in">\u000a	<code class="western"><span style="font-variant: normal"><font color="#333333"><font face="Helvetica Neue, Helvetica, Arial, sans-serif"><font size="2" style="font-size: 9pt"><span style="font-style: normal"><span style="font-weight: normal">If any of the options are not working properly, or if you have ideas on how to handle cross-browser styling, please feel free to let me know or, better yet, provide a proposed solution. I welcome any help or feedback to make this plugin as useful to the community as possible.</span></span></font></font></font></span></code></p>\u000a<p align="JUSTIFY" style="margin-bottom: 0.09in">\u000a	<br />\u000a	&nbsp;</p>\u000a<p>\u000a	<br />\u000a	<br />\u000a	&nbsp;</p>\u000a
+p988
+sVpypi
+p989
+V
+sVis_active
+p990
+I01
+sVmodified_on
+p991
+NsVarticle_id
+p992
+I1919
+sVlicense_version
+p993
+V
+sVmarkup
+p994
+Vhtml
+p995
+sVdocumentation
+p996
+V
+sVlicense_url
+p997
+V
+sVqualification
+p998
+(lp999
+sVrepository_page
+p1000
+V
+sVlicense_type
+p1001
+Vmit
+p1002
+sVrepository_project
+p1003
+Vplugin_SQLFORM_INLINE
+p1004
+ssa(dp1005
+Varticle
+p1006
+(dp1007
+Vfavorited
+p1008
+I0
+sVdislikes
+p1009
+I0
+sVauthor_nickname
+p1010
+NsVfeatured
+p1011
+I00
+sVlikes
+p1012
+I0
+sVkeywords
+p1013
+NsVid
+p1014
+I1935
+sVdescription
+p1015
+Vspam
+p1016
+sVmodified_by
+p1017
+I1013
+sVauthor
+p1018
+I1013
+sVviews
+p1019
+I4
+sVcreated_by
+p1020
+I1013
+sVdraft
+p1021
+I00
+sVpublish_date
+p1022
+NsVblocked
+p1023
+I00
+sVthumbnail
+p1024
+NsVpicture
+p1025
+V
+sVresponses
+p1026
+I0
+sVsubscriptions
+p1027
+I0
+sVis_active
+p1028
+I00
+sVcontent_type
+p1029
+NsVmodified_on
+p1030
+NsVslug
+p1031
+Vspam
+p1032
+sVtags
+p1033
+(lp1034
+sVcontent_type_id
+p1035
+I4
+sVlicense
+p1036
+V1
+sVprivacy
+p1037
+NsVcreated_on
+p1038
+NsVmedium_thumbnail
+p1039
+NsVpublish_tz
+p1040
+NsVtitle
+p1041
+Vspam
+p1042
+sVcategory_id
+p1043
+(lp1044
+ssVpackage_data
+p1045
+(dp1046
+Vpackage_type
+p1047
+Vplugin
+p1048
+sVtype_id
+p1049
+I4
+sVdemo
+p1050
+V
+sVdownload
+p1051
+V
+sVcreated_on
+p1052
+NsVrepository_url
+p1053
+V
+sVscreenshots
+p1054
+(lp1055
+sVid
+p1056
+I25
+sVmodified_by
+p1057
+I1013
+sVlicense_body
+p1058
+V
+sVcreated_by
+p1059
+I1013
+sVrepository_brand
+p1060
+Vother
+p1061
+sVbody
+p1062
+V
+sVpypi
+p1063
+V
+sVis_active
+p1064
+I01
+sVmodified_on
+p1065
+NsVarticle_id
+p1066
+I1935
+sVlicense_version
+p1067
+V
+sVmarkup
+p1068
+Vhtml
+p1069
+sVdocumentation
+p1070
+V
+sVlicense_url
+p1071
+V
+sVqualification
+p1072
+(lp1073
+sVrepository_page
+p1074
+V
+sVlicense_type
+p1075
+Vother
+p1076
+sVrepository_project
+p1077
+V
+ssa(dp1078
+Varticle
+p1079
+(dp1080
+Vfavorited
+p1081
+I1
+sVdislikes
+p1082
+I0
+sVauthor_nickname
+p1083
+NsVfeatured
+p1084
+I00
+sVlikes
+p1085
+I2
+sVkeywords
+p1086
+V
+sVid
+p1087
+I1937
+sVdescription
+p1088
+VAdmin Plus(A-Plus) is a web2py plugin that provides an easy-to-use interface for managing your data
+p1089
+sVmodified_by
+p1090
+NsVauthor
+p1091
+I1782
+sVviews
+p1092
+I10065
+sVcreated_by
+p1093
+I1013
+sVdraft
+p1094
+I00
+sVpublish_date
+p1095
+NsVblocked
+p1096
+I00
+sVthumbnail
+p1097
+Varticle.picture.923cad52cc340b55.61646d696e706c75732e706e67_thumb.png
+p1098
+sVpicture
+p1099
+Varticle.picture.923cad52cc340b55.61646d696e706c75732e706e67.png
+p1100
+sVresponses
+p1101
+I0
+sVsubscriptions
+p1102
+I0
+sVis_active
+p1103
+I01
+sVcontent_type
+p1104
+V
+sVmodified_on
+p1105
+NsVslug
+p1106
+Vadmin-plus
+p1107
+sVtags
+p1108
+(lp1109
+Vadmin
+p1110
+aVplugin
+p1111
+asVcontent_type_id
+p1112
+I4
+sVlicense
+p1113
+V1
+sVprivacy
+p1114
+NsVcreated_on
+p1115
+NsVmedium_thumbnail
+p1116
+Varticle.picture.923cad52cc340b55.61646d696e706c75732e706e67_medium_thumb.png
+p1117
+sVpublish_tz
+p1118
+V
+sVtitle
+p1119
+VAdmin Plus
+p1120
+sVcategory_id
+p1121
+(lp1122
+I41
+assVpackage_data
+p1123
+(dp1124
+Vpackage_type
+p1125
+Vplugin
+p1126
+sVtype_id
+p1127
+I4
+sVdemo
+p1128
+V
+sVdownload
+p1129
+Vhttps://github.com/pyner/admin_plus/blob/master/web2py.plugin.admin_plus.w2p?raw=true
+p1130
+sVcreated_on
+p1131
+NsVrepository_url
+p1132
+Vhttps://github.com/pyner/admin_plus
+p1133
+sVscreenshots
+p1134
+(lp1135
+Vhttps://lh4.googleusercontent.com/-WmbChzRuovA/Usnv-uLSVXI/AAAAAAAAAX8/12e5GclFs-U/w905-h509/Screenshot+from+2014-01-05+18:32:35.png
+p1136
+asVid
+p1137
+I26
+sVmodified_by
+p1138
+I1013
+sVlicense_body
+p1139
+V                   GNU LESSER GENERAL PUBLIC LICENSE\u000a                       Version 3, 29 June 2007\u000a\u000a Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\u000a Everyone is permitted to copy and distribute verbatim copies\u000a of this license document, but changing it is not allowed.\u000a\u000a\u000a  This version of the GNU Lesser General Public License incorporates\u000athe terms and conditions of version 3 of the GNU General Public\u000aLicense, supplemented by the additional permissions listed below.\u000a\u000a  0. Additional Definitions.\u000a\u000a  As used herein, "this License" refers to version 3 of the GNU Lesser\u000aGeneral Public License, and the "GNU GPL" refers to version 3 of the GNU\u000aGeneral Public License.\u000a\u000a  "The Library" refers to a covered work governed by this License,\u000aother than an Application or a Combined Work as defined below.\u000a\u000a  An "Application" is any work that makes use of an interface provided\u000aby the Library, but which is not otherwise based on the Library.\u000aDefining a subclass of a class defined by the Library is deemed a mode\u000aof using an interface provided by the Library.\u000a\u000a  A "Combined Work" is a work produced by combining or linking an\u000aApplication with the Library.  The particular version of the Library\u000awith which the Combined Work was made is also called the "Linked\u000aVersion".\u000a\u000a  The "Minimal Corresponding Source" for a Combined Work means the\u000aCorresponding Source for the Combined Work, excluding any source code\u000afor portions of the Combined Work that, considered in isolation, are\u000abased on the Application, and not on the Linked Version.\u000a\u000a  The "Corresponding Application Code" for a Combined Work means the\u000aobject code and/or source code for the Application, including any data\u000aand utility programs needed for reproducing the Combined Work from the\u000aApplication, but excluding the System Libraries of the Combined Work.\u000a\u000a  1. Exception to Section 3 of the GNU GPL.\u000a\u000a  You may convey a covered work under sections 3 and 4 of this License\u000awithout being bound by section 3 of the GNU GPL.\u000a\u000a  2. Conveying Modified Versions.\u000a\u000a  If you modify a copy of the Library, and, in your modifications, a\u000afacility refers to a function or data to be supplied by an Application\u000athat uses the facility (other than as an argument passed when the\u000afacility is invoked), then you may convey a copy of the modified\u000aversion:\u000a\u000a   a) under this License, provided that you make a good faith effort to\u000a   ensure that, in the event an Application does not supply the\u000a   function or data, the facility still operates, and performs\u000a   whatever part of its purpose remains meaningful, or\u000a\u000a   b) under the GNU GPL, with none of the additional permissions of\u000a   this License applicable to that copy.\u000a\u000a  3. Object Code Incorporating Material from Library Header Files.\u000a\u000a  The object code form of an Application may incorporate material from\u000aa header file that is part of the Library.  You may convey such object\u000acode under terms of your choice, provided that, if the incorporated\u000amaterial is not limited to numerical parameters, data structure\u000alayouts and accessors, or small macros, inline functions and templates\u000a(ten or fewer lines in length), you do both of the following:\u000a\u000a   a) Give prominent notice with each copy of the object code that the\u000a   Library is used in it and that the Library and its use are\u000a   covered by this License.\u000a\u000a   b) Accompany the object code with a copy of the GNU GPL and this license\u000a   document.\u000a\u000a  4. Combined Works.\u000a\u000a  You may convey a Combined Work under terms of your choice that,\u000ataken together, effectively do not restrict modification of the\u000aportions of the Library contained in the Combined Work and reverse\u000aengineering for debugging such modifications, if you also do each of\u000athe following:\u000a\u000a   a) Give prominent notice with each copy of the Combined Work that\u000a   the Library is used in it and that the Library and its use are\u000a   covered by this License.\u000a\u000a   b) Accompany the Combined Work with a copy of the GNU GPL and this license\u000a   document.\u000a\u000a   c) For a Combined Work that displays copyright notices during\u000a   execution, include the copyright notice for the Library among\u000a   these notices, as well as a reference directing the user to the\u000a   copies of the GNU GPL and this license document.\u000a\u000a   d) Do one of the following:\u000a\u000a       0) Convey the Minimal Corresponding Source under the terms of this\u000a       License, and the Corresponding Application Code in a form\u000a       suitable for, and under terms that permit, the user to\u000a       recombine or relink the Application with a modified version of\u000a       the Linked Version to produce a modified Combined Work, in the\u000a       manner specified by section 6 of the GNU GPL for conveying\u000a       Corresponding Source.\u000a\u000a       1) Use a suitable shared library mechanism for linking with the\u000a       Library.  A suitable mechanism is one that (a) uses at run time\u000a       a copy of the Library already present on the user's computer\u000a       system, and (b) will operate properly with a modified version\u000a       of the Library that is interface-compatible with the Linked\u000a       Version.\u000a\u000a   e) Provide Installation Information, but only if you would otherwise\u000a   be required to provide such information under section 6 of the\u000a   GNU GPL, and only to the extent that such information is\u000a   necessary to install and execute a modified version of the\u000a   Combined Work produced by recombining or relinking the\u000a   Application with a modified version of the Linked Version. (If\u000a   you use option 4d0, the Installation Information must accompany\u000a   the Minimal Corresponding Source and Corresponding Application\u000a   Code. If you use option 4d1, you must provide the Installation\u000a   Information in the manner specified by section 6 of the GNU GPL\u000a   for conveying Corresponding Source.)\u000a\u000a  5. Combined Libraries.\u000a\u000a  You may place library facilities that are a work based on the\u000aLibrary side by side in a single library together with other library\u000afacilities that are not Applications and are not covered by this\u000aLicense, and convey such a combined library under terms of your\u000achoice, if you do both of the following:\u000a\u000a   a) Accompany the combined library with a copy of the same work based\u000a   on the Library, uncombined with any other library facilities,\u000a   conveyed under the terms of this License.\u000a\u000a   b) Give prominent notice with the combined library that part of it\u000a   is a work based on the Library, and explaining where to find the\u000a   accompanying uncombined form of the same work.\u000a\u000a  6. Revised Versions of the GNU Lesser General Public License.\u000a\u000a  The Free Software Foundation may publish revised and/or new versions\u000aof the GNU Lesser General Public License from time to time. Such new\u000aversions will be similar in spirit to the present version, but may\u000adiffer in detail to address new problems or concerns.\u000a\u000a  Each version is given a distinguishing version number. If the\u000aLibrary as you received it specifies that a certain numbered version\u000aof the GNU Lesser General Public License "or any later version"\u000aapplies to it, you have the option of following the terms and\u000aconditions either of that published version or of any later version\u000apublished by the Free Software Foundation. If the Library as you\u000areceived it does not specify a version number of the GNU Lesser\u000aGeneral Public License, you may choose any version of the GNU Lesser\u000aGeneral Public License ever published by the Free Software Foundation.\u000a\u000a  If the Library as you received it specifies that a proxy can decide\u000awhether future versions of the GNU Lesser General Public License shall\u000aapply, that proxy's public statement of acceptance of any version is\u000apermanent authorization for you to choose that version for the\u000aLibrary.\u000a
+p1140
+sVcreated_by
+p1141
+I1013
+sVrepository_brand
+p1142
+Vgit
+p1143
+sVbody
+p1144
+V<p>\u000a	Install<br />\u000a	<br />\u000a	1. Download and install the plugin<br />\u000a	<br />\u000a	<br />\u000a	2. go to &quot;127.0.0.1:8000/&lt;app&gt;/plugin_admin_plus/install&quot;<br />\u000a	<br />\u000a	3. Get the permissions &quot; plugin_admin_plus_superuser &quot; in &quot;127.0.0.1:8000/&lt;app&gt;/appadmin/insert/db/auth_membership&quot;<br />\u000a	<br />\u000a	4. !! ready! Now you can log in...&nbsp; &quot; 127.0.0.1:8000/&lt;app&gt;/plugin_admin_plus/index&quot;<br />\u000a	<br />\u000a	NOTE: &lt;app&gt; is&nbsp; replaced by the name of your application<br />\u000a	&nbsp;</p>\u000a
+p1145
+sVpypi
+p1146
+V
+sVis_active
+p1147
+I01
+sVmodified_on
+p1148
+NsVarticle_id
+p1149
+I1937
+sVlicense_version
+p1150
+V3
+sVmarkup
+p1151
+Vhtml
+p1152
+sVdocumentation
+p1153
+Vhttps://github.com/pyner/admin_plus
+p1154
+sVlicense_url
+p1155
+Vhttp://www.gnu.org/licenses/lgpl.html
+p1156
+sVqualification
+p1157
+(lp1158
+sVrepository_page
+p1159
+Vhttps://github.com/pyner/admin_plus
+p1160
+sVlicense_type
+p1161
+Vlgpl
+p1162
+sVrepository_project
+p1163
+VAdmin plus
+p1164
+ssa(dp1165
+Varticle
+p1166
+(dp1167
+Vfavorited
+p1168
+I3
+sVdislikes
+p1169
+I0
+sVauthor_nickname
+p1170
+NsVfeatured
+p1171
+I00
+sVlikes
+p1172
+I7
+sVkeywords
+p1173
+NsVid
+p1174
+I1952
+sVdescription
+p1175
+VFork of existing ckEditor plugin updated to ckEditor v4.5.7 (Feb 2016) (Plugin is v 1.2, Feb 2016)
+p1176
+sVmodified_by
+p1177
+NsVauthor
+p1178
+I1581
+sVviews
+p1179
+I12250
+sVcreated_by
+p1180
+I1581
+sVdraft
+p1181
+I00
+sVpublish_date
+p1182
+NsVblocked
+p1183
+I00
+sVthumbnail
+p1184
+Varticle.picture.ab3960fc91d8ab06.434b456469746f722e706e67_thumb.png
+p1185
+sVpicture
+p1186
+Varticle.picture.ab3960fc91d8ab06.434b456469746f722e706e67.png
+p1187
+sVresponses
+p1188
+I0
+sVsubscriptions
+p1189
+I1
+sVis_active
+p1190
+I01
+sVcontent_type
+p1191
+NsVmodified_on
+p1192
+NsVslug
+p1193
+Vck-editor4-plugin
+p1194
+sVtags
+p1195
+(lp1196
+Vckeditor
+p1197
+asVcontent_type_id
+p1198
+I4
+sVlicense
+p1199
+V3
+sVprivacy
+p1200
+NsVcreated_on
+p1201
+NsVmedium_thumbnail
+p1202
+Varticle.picture.ab3960fc91d8ab06.434b456469746f722e706e67_medium_thumb.png
+p1203
+sVpublish_tz
+p1204
+NsVtitle
+p1205
+Vck_editor4 plugin
+p1206
+sVcategory_id
+p1207
+(lp1208
+ssVpackage_data
+p1209
+(dp1210
+Vpackage_type
+p1211
+Vplugin
+p1212
+sVtype_id
+p1213
+I4
+sVdemo
+p1214
+V
+sVdownload
+p1215
+Vhttps://github.com/timrichardson/web2py_ckeditor4/releases/download/v1.2/web2py.plugin.ckeditor.w2p
+p1216
+sVcreated_on
+p1217
+NsVrepository_url
+p1218
+Vhttps://github.com/timrichardson/web2py_ckeditor4
+p1219
+sVscreenshots
+p1220
+(lp1221
+sVid
+p1222
+I29
+sVmodified_by
+p1223
+I1581
+sVlicense_body
+p1224
+V
+sVcreated_by
+p1225
+I1581
+sVrepository_brand
+p1226
+Vgit
+p1227
+sVbody
+p1228
+V<p>\u000a	A plugin for ckEditor including image uploads and management of images on the server.</p>\u000a<p>\u000a	Includes the full edition of ckEditor v4.5.7 (2016-02) and tested with web2py 2.9.x -&gt; 2.13</p>\u000a<p>\u000a	It is easy to update the ckEditor content yourself rather than waiting for me to make a new version.</p>\u000a<p>\u000a	This is a fork of Bruno Rocha&#39;s plugin. It&#39;s updated to v4 ckeditor, and works better with recent web2py versions. Code is on github, fixes are welcome. There are two maintainers at present.</p>\u000a<p>\u000a	The inline edit has been removed to simplify the code (and it seems that the javascript is no longer maintained upstream).</p>\u000a<p>\u000a	This web2py plugin to add ckeditor to web2py apps is based on the original <a href="https://bitbucket.org/PhreeStyle/web2py_ckeditor/wiki/Home">https://bitbucket.org/PhreeStyle/web2py_ckeditor/wiki/Home</a>)</p>\u000a<p>\u000a	<strong>Upgrading</strong></p>\u000a<p>\u000a	To upgrade to a newer version of ckeditor, replace the directory static/plugin_ckeditor with the directory downloaded from the ckeditor site. You will probably need to refresh or delete browser caches.</p>\u000a<h3>\u000a	Installation</h3>\u000a<p>\u000a	&nbsp;</p>\u000a<p>\u000a	This plugin integrates the CKEditor into web2py.</p>\u000a<p>\u000a	In your model, you need to import and initialize it:</p>\u000a<p>\u000a	&nbsp;</p>\u000a<pre class="prettyprint linenums">from plugin_ckeditor import CKEditor\u000a\u000ackeditor = CKEditor(db)\u000a\u000ackeditor.define_tables()</pre>\u000a<p>\u000a	Note that define_tables defines a table when it is executed, even if lazy tables is used. To avoid this happening on every request, you could move .define_tables to controllers where ckeditor is used.</p>\u000a<p>\u000a	&nbsp;</p>\u000a<h3>\u000a	Basic Usage</h3>\u000a<p>\u000a	Its most basic usage is to assign it to a Field widget:</p>\u000a<p>\u000a	&nbsp;</p>\u000a<pre class="prettyprint linenums">db.define_table(&#39;content&#39;, Field(&#39;title&#39;, length=255), \u000aField(&#39;public&#39;, &#39;boolean&#39;, default=True), \u000aField(&#39;text&#39;, &#39;text&#39;, widget=ckeditor.widget) )</pre>\u000a<p>\u000a	&nbsp;</p>\u000a<p>\u000a	The CKEditor now automatically becomes available every time SQLFORM is used.</p>\u000a<p>\u000a	It includes integrated upload and browse functionality for images. The plugin defines a table to store images. This works using ckeditor&#39;s custom browser integration, which means web2py controls the display of contents when the user cliick browse.</p>\u000a<p>\u000a	Look at the file views/plugin_ckeditor/browse.html to alter the appearance of the uploaded file browser. By default it&#39;s not very attractive.</p>\u000a<p>\u000a	The upload and browse functionality is all taken care of by the plugin and does not require you to do anything on your end once you have initialized the plugin in your model as demonstrated above. You can also delete images from the server.</p>\u000a<p>\u000a	&nbsp;</p>\u000a<h3>\u000a	Thanks and References</h3>\u000a<p>\u000a	Bruno used the following resources in developing this plugin, so a special thanks to the authors of these for providing the ground work required to make this possible:</p>\u000a<p>\u000a	<a href="http://www.web2pyslices.com/main/slices/take_slice/18">http://www.web2pyslices.com/main/slices/take_slice/18</a></p>\u000a<p>\u000a	<a href="http://www.bitsntuts.com/jquery/ckeditor-edit-in-place-jquery-plugin">http://www.bitsntuts.com/jquery/ckeditor-edit-in-place-jquery-plugin</a></p>\u000a<p>\u000a	So far three other GitHub users have contributed improvements:&nbsp;</p>\u000a<h3 style="box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 16px; font-size: 16px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); padding: 10px; font-weight: normal; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';">\u000a	<a class="aname" href="https://github.com/dmvieira" style="box-sizing: border-box; color: rgb(65, 131, 196); background: transparent;">dmvieira</a>,&nbsp;<a class="aname" href="https://github.com/pyner" style="box-sizing: border-box; color: rgb(65, 131, 196); background: transparent;">pyner</a>&nbsp;and <a href="https://github.com/flavour">flavour</a>. Thanks.</h3>\u000a<p>\u000a	&nbsp;</p>\u000a
+p1229
+sVpypi
+p1230
+V
+sVis_active
+p1231
+I01
+sVmodified_on
+p1232
+NsVarticle_id
+p1233
+I1952
+sVlicense_version
+p1234
+V
+sVmarkup
+p1235
+Vhtml
+p1236
+sVdocumentation
+p1237
+Vhttps://github.com/timrichardson/web2py_ckeditor4
+p1238
+sVlicense_url
+p1239
+V
+sVqualification
+p1240
+(lp1241
+sVrepository_page
+p1242
+Vhttps://github.com/timrichardson/web2py_ckeditor4
+p1243
+sVlicense_type
+p1244
+Vlgpl
+p1245
+sVrepository_project
+p1246
+Vweb2py_ckeditor4
+p1247
+ssa(dp1248
+Varticle
+p1249
+(dp1250
+Vfavorited
+p1251
+I0
+sVdislikes
+p1252
+I0
+sVauthor_nickname
+p1253
+NsVfeatured
+p1254
+I00
+sVlikes
+p1255
+I0
+sVkeywords
+p1256
+NsVid
+p1257
+I1961
+sVdescription
+p1258
+VA plugin for expand your web2py application with OpenLayers field widgets
+p1259
+sVmodified_by
+p1260
+NsVauthor
+p1261
+I1129
+sVviews
+p1262
+I5548
+sVcreated_by
+p1263
+I1129
+sVdraft
+p1264
+I00
+sVpublish_date
+p1265
+NsVblocked
+p1266
+I00
+sVthumbnail
+p1267
+NsVpicture
+p1268
+V
+sVresponses
+p1269
+I0
+sVsubscriptions
+p1270
+I1
+sVis_active
+p1271
+I01
+sVcontent_type
+p1272
+NsVmodified_on
+p1273
+NsVslug
+p1274
+Volwidgets
+p1275
+sVtags
+p1276
+(lp1277
+Vplugin
+p1278
+aVopenlayers
+p1279
+asVcontent_type_id
+p1280
+I4
+sVlicense
+p1281
+V3
+sVprivacy
+p1282
+NsVcreated_on
+p1283
+NsVmedium_thumbnail
+p1284
+NsVpublish_tz
+p1285
+NsVtitle
+p1286
+Volwidgets
+p1287
+sVcategory_id
+p1288
+(lp1289
+I41
+assVpackage_data
+p1290
+(dp1291
+Vpackage_type
+p1292
+Vplugin
+p1293
+sVtype_id
+p1294
+I4
+sVdemo
+p1295
+V
+sVdownload
+p1296
+Vhttp://cloud.deep.to.it/public.php?service=files&t=87a58546f90c414b719d98a0e85c6ed0
+p1297
+sVcreated_on
+p1298
+NsVrepository_url
+p1299
+Vhttps://github.com/manuelep/web2py.olwidgets
+p1300
+sVscreenshots
+p1301
+(lp1302
+sVid
+p1303
+I30
+sVmodified_by
+p1304
+I1129
+sVlicense_body
+p1305
+V
+sVcreated_by
+p1306
+I1129
+sVrepository_brand
+p1307
+Vgit
+p1308
+sVbody
+p1309
+V
+sVpypi
+p1310
+V
+sVis_active
+p1311
+I01
+sVmodified_on
+p1312
+NsVarticle_id
+p1313
+I1961
+sVlicense_version
+p1314
+V
+sVmarkup
+p1315
+Vhtml
+p1316
+sVdocumentation
+p1317
+V
+sVlicense_url
+p1318
+V
+sVqualification
+p1319
+(lp1320
+sVrepository_page
+p1321
+Vhttps://github.com/manuelep/web2py.olwidgets
+p1322
+sVlicense_type
+p1323
+Vgpl
+p1324
+sVrepository_project
+p1325
+Vweb2py.olwidgets
+p1326
+ssa(dp1327
+Varticle
+p1328
+(dp1329
+Vfavorited
+p1330
+I0
+sVdislikes
+p1331
+I0
+sVauthor_nickname
+p1332
+NsVfeatured
+p1333
+I00
+sVlikes
+p1334
+I0
+sVkeywords
+p1335
+NsVid
+p1336
+I1970
+sVdescription
+p1337
+Vhttps://github.com/hiho-/CRYPT_AES
+p1338
+sVmodified_by
+p1339
+I2
+sVauthor
+p1340
+I2282
+sVviews
+p1341
+I0
+sVcreated_by
+p1342
+I2282
+sVdraft
+p1343
+I01
+sVpublish_date
+p1344
+NsVblocked
+p1345
+I00
+sVthumbnail
+p1346
+NsVpicture
+p1347
+V
+sVresponses
+p1348
+I0
+sVsubscriptions
+p1349
+I0
+sVis_active
+p1350
+I01
+sVcontent_type
+p1351
+NsVmodified_on
+p1352
+NsVslug
+p1353
+Vcrypt-aes
+p1354
+sVtags
+p1355
+(lp1356
+sVcontent_type_id
+p1357
+I4
+sVlicense
+p1358
+V2
+sVprivacy
+p1359
+NsVcreated_on
+p1360
+NsVmedium_thumbnail
+p1361
+NsVpublish_tz
+p1362
+NsVtitle
+p1363
+VCRYPT_AES
+p1364
+sVcategory_id
+p1365
+(lp1366
+ssVpackage_data
+p1367
+(dp1368
+Vpackage_type
+p1369
+Vplugin
+p1370
+sVtype_id
+p1371
+I4
+sVdemo
+p1372
+V
+sVdownload
+p1373
+Vhttps://www.dropbox.com/sh/1x3ztesezz50d2d/AADR9XTpYiAueJjikoVtcAd9a
+p1374
+sVcreated_on
+p1375
+NsVrepository_url
+p1376
+Vhttps://github.com/hiho-/CRYPT_AES
+p1377
+sVscreenshots
+p1378
+(lp1379
+sVid
+p1380
+I31
+sVmodified_by
+p1381
+I2282
+sVlicense_body
+p1382
+V
+sVcreated_by
+p1383
+I2282
+sVrepository_brand
+p1384
+Vgit
+p1385
+sVbody
+p1386
+V<p>\u000a	CRYPT_AES is a plugin for web2py framework. This will encrypt the database field that you specify.</p>\u000a<p>\u000a	&nbsp;</p>\u000a<p>\u000a	Please see github, if you want to read more.</p>\u000a
+p1387
+sVpypi
+p1388
+V
+sVis_active
+p1389
+I01
+sVmodified_on
+p1390
+NsVarticle_id
+p1391
+I1970
+sVlicense_version
+p1392
+V
+sVmarkup
+p1393
+Vhtml
+p1394
+sVdocumentation
+p1395
+Vhttps://github.com/hiho-/CRYPT_AES
+p1396
+sVlicense_url
+p1397
+V
+sVqualification
+p1398
+(lp1399
+sVrepository_page
+p1400
+Vhttps://github.com/hiho-/CRYPT_AES
+p1401
+sVlicense_type
+p1402
+Vgpl
+p1403
+sVrepository_project
+p1404
+VCRYPT_AES
+p1405
+ssa(dp1406
+Varticle
+p1407
+(dp1408
+Vfavorited
+p1409
+I0
+sVdislikes
+p1410
+I0
+sVauthor_nickname
+p1411
+NsVfeatured
+p1412
+I00
+sVlikes
+p1413
+I0
+sVkeywords
+p1414
+NsVid
+p1415
+I1971
+sVdescription
+p1416
+Vhttps://github.com/hiho-/CRYPT_AES
+p1417
+sVmodified_by
+p1418
+I2
+sVauthor
+p1419
+I2282
+sVviews
+p1420
+I0
+sVcreated_by
+p1421
+I2282
+sVdraft
+p1422
+I01
+sVpublish_date
+p1423
+NsVblocked
+p1424
+I00
+sVthumbnail
+p1425
+NsVpicture
+p1426
+V
+sVresponses
+p1427
+I0
+sVsubscriptions
+p1428
+I0
+sVis_active
+p1429
+I01
+sVcontent_type
+p1430
+NsVmodified_on
+p1431
+NsVslug
+p1432
+Vcrypt-aes
+p1433
+sVtags
+p1434
+(lp1435
+sVcontent_type_id
+p1436
+I4
+sVlicense
+p1437
+V2
+sVprivacy
+p1438
+NsVcreated_on
+p1439
+NsVmedium_thumbnail
+p1440
+NsVpublish_tz
+p1441
+NsVtitle
+p1442
+VCRYPT_AES
+p1443
+sVcategory_id
+p1444
+(lp1445
+ssVpackage_data
+p1446
+(dp1447
+Vpackage_type
+p1448
+Vplugin
+p1449
+sVtype_id
+p1450
+I4
+sVdemo
+p1451
+V
+sVdownload
+p1452
+Vhttps://www.dropbox.com/sh/1x3ztesezz50d2d/AADR9XTpYiAueJjikoVtcAd9a
+p1453
+sVcreated_on
+p1454
+NsVrepository_url
+p1455
+V
+sVscreenshots
+p1456
+(lp1457
+sVid
+p1458
+I32
+sVmodified_by
+p1459
+I2282
+sVlicense_body
+p1460
+V
+sVcreated_by
+p1461
+I2282
+sVrepository_brand
+p1462
+Vgit
+p1463
+sVbody
+p1464
+V<p>\u000a	CRYPT_AES is a plugin for web2py framework. This will encrypt the database field that you specify.</p>\u000a
+p1465
+sVpypi
+p1466
+V
+sVis_active
+p1467
+I01
+sVmodified_on
+p1468
+NsVarticle_id
+p1469
+I1971
+sVlicense_version
+p1470
+V
+sVmarkup
+p1471
+Vhtml
+p1472
+sVdocumentation
+p1473
+Vhttps://github.com/hiho-/CRYPT_AES
+p1474
+sVlicense_url
+p1475
+V
+sVqualification
+p1476
+(lp1477
+sVrepository_page
+p1478
+Vhttps://github.com/hiho-/CRYPT_AES
+p1479
+sVlicense_type
+p1480
+Vgpl
+p1481
+sVrepository_project
+p1482
+Vhttps://github.com/hiho-/CRYPT_AES
+p1483
+ssa(dp1484
+Varticle
+p1485
+(dp1486
+Vfavorited
+p1487
+I1
+sVdislikes
+p1488
+I1
+sVauthor_nickname
+p1489
+NsVfeatured
+p1490
+I00
+sVlikes
+p1491
+I4
+sVkeywords
+p1492
+NsVid
+p1493
+I1987
+sVdescription
+p1494
+VIt is a plug-in such as a spreadsheet.
+p1495
+sVmodified_by
+p1496
+NsVauthor
+p1497
+I2282
+sVviews
+p1498
+I8824
+sVcreated_by
+p1499
+I2282
+sVdraft
+p1500
+I00
+sVpublish_date
+p1501
+NsVblocked
+p1502
+I00
+sVthumbnail
+p1503
+Varticle.picture.b88ffb387bcccc0c.73716c6564697461626c655f3030312e706e67_thumb.png
+p1504
+sVpicture
+p1505
+Varticle.picture.b88ffb387bcccc0c.73716c6564697461626c655f3030312e706e67.png
+p1506
+sVresponses
+p1507
+I0
+sVsubscriptions
+p1508
+I0
+sVis_active
+p1509
+I01
+sVcontent_type
+p1510
+NsVmodified_on
+p1511
+NsVslug
+p1512
+Vsqleditable
+p1513
+sVtags
+p1514
+(lp1515
+sVcontent_type_id
+p1516
+I4
+sVlicense
+p1517
+V1
+sVprivacy
+p1518
+NsVcreated_on
+p1519
+NsVmedium_thumbnail
+p1520
+Varticle.picture.b88ffb387bcccc0c.73716c6564697461626c655f3030312e706e67_medium_thumb.png
+p1521
+sVpublish_tz
+p1522
+NsVtitle
+p1523
+VSQLEDITABLE
+p1524
+sVcategory_id
+p1525
+(lp1526
+ssVpackage_data
+p1527
+(dp1528
+Vpackage_type
+p1529
+Vplugin
+p1530
+sVtype_id
+p1531
+I4
+sVdemo
+p1532
+Vhttp://docs1.erp2py.com/sqleditable/demo/demo_en.html
+p1533
+sVdownload
+p1534
+Vhttps://github.com/hiho-/SQLEDITABLE/releases
+p1535
+sVcreated_on
+p1536
+NsVrepository_url
+p1537
+Vhttps://github.com/hiho-/SQLEDITABLE
+p1538
+sVscreenshots
+p1539
+(lp1540
+sVid
+p1541
+I33
+sVmodified_by
+p1542
+I2282
+sVlicense_body
+p1543
+V
+sVcreated_by
+p1544
+I2282
+sVrepository_brand
+p1545
+Vgit
+p1546
+sVbody
+p1547
+V
+sVpypi
+p1548
+V
+sVis_active
+p1549
+I01
+sVmodified_on
+p1550
+NsVarticle_id
+p1551
+I1987
+sVlicense_version
+p1552
+Vv3
+p1553
+sVmarkup
+p1554
+Vhtml
+p1555
+sVdocumentation
+p1556
+Vhttp://docs1.erp2py.com/sqleditable/docs/document_en.html
+p1557
+sVlicense_url
+p1558
+V
+sVqualification
+p1559
+(lp1560
+sVrepository_page
+p1561
+Vhttps://github.com/hiho-/SQLEDITABLE
+p1562
+sVlicense_type
+p1563
+Vlgpl
+p1564
+sVrepository_project
+p1565
+VSQLEDITABLE
+p1566
+ssa(dp1567
+Varticle
+p1568
+(dp1569
+Vfavorited
+p1570
+I0
+sVdislikes
+p1571
+I0
+sVauthor_nickname
+p1572
+NsVfeatured
+p1573
+I00
+sVlikes
+p1574
+I1
+sVkeywords
+p1575
+NsVid
+p1576
+I1996
+sVdescription
+p1577
+VA Web2py plugin and a webpage for wishes with a snowing effect, using HTML5 & JS\u000aThe preview site is https://piggy1989.pythonanywhere.com/ylrc/plugin_wish/wishes
+p1578
+sVmodified_by
+p1579
+NsVauthor
+p1580
+I2353
+sVviews
+p1581
+I5965
+sVcreated_by
+p1582
+I2353
+sVdraft
+p1583
+I00
+sVpublish_date
+p1584
+NsVblocked
+p1585
+I00
+sVthumbnail
+p1586
+Varticle.picture.b58fe6d473a56b5f.556e7469746c65642e706e67_thumb.png
+p1587
+sVpicture
+p1588
+Varticle.picture.b58fe6d473a56b5f.556e7469746c65642e706e67.png
+p1589
+sVresponses
+p1590
+I0
+sVsubscriptions
+p1591
+I0
+sVis_active
+p1592
+I01
+sVcontent_type
+p1593
+NsVmodified_on
+p1594
+NsVslug
+p1595
+Vsnowingwishes
+p1596
+sVtags
+p1597
+(lp1598
+Vhtml5
+p1599
+asVcontent_type_id
+p1600
+I4
+sVlicense
+p1601
+V2
+sVprivacy
+p1602
+NsVcreated_on
+p1603
+NsVmedium_thumbnail
+p1604
+Varticle.picture.b58fe6d473a56b5f.556e7469746c65642e706e67_medium_thumb.png
+p1605
+sVpublish_tz
+p1606
+NsVtitle
+p1607
+VSnowingWishes
+p1608
+sVcategory_id
+p1609
+(lp1610
+I41
+assVpackage_data
+p1611
+(dp1612
+Vpackage_type
+p1613
+Vplugin
+p1614
+sVtype_id
+p1615
+I4
+sVdemo
+p1616
+Vhttps://piggy1989.pythonanywhere.com/ylrc/plugin_wish/wishes
+p1617
+sVdownload
+p1618
+V
+sVcreated_on
+p1619
+NsVrepository_url
+p1620
+Vhttps://github.com/zhxliao/SnowingWishes
+p1621
+sVscreenshots
+p1622
+(lp1623
+sVid
+p1624
+I34
+sVmodified_by
+p1625
+I2353
+sVlicense_body
+p1626
+V
+sVcreated_by
+p1627
+I2353
+sVrepository_brand
+p1628
+Vgit
+p1629
+sVbody
+p1630
+V<h1 style="box-sizing: border-box; font-size: 2.25em; margin-bottom: 16px; line-height: 1.2; position: relative; padding-bottom: 0.3em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; margin-top: 0px !important;">\u000a	SnowingWishes</h1>\u000a<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px; text-align: start;">\u000a	A&nbsp;<a href="http://www.web2py.com/" style="box-sizing: border-box; color: rgb(65, 131, 196); background: transparent;">Web2py</a>&nbsp;plugin and a webpage for wishes with a snowing effect, using HTML5 &amp; JS</p>\u000a<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px; text-align: start;">\u000a	The preview site is&nbsp;<a href="https://piggy1989.pythonanywhere.com/ylrc/plugin_wish/wishes" style="box-sizing: border-box; color: rgb(65, 131, 196); background: transparent;">https://piggy1989.pythonanywhere.com/ylrc/plugin_wish/wishes</a></p>\u000a<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px; text-align: start;">\u000a	All you need to do is two steps:</p>\u000a<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px; text-align: start;">\u000a	1.Adding the following script in your default.py.</p>\u000a<pre style="box-sizing: border-box; overflow: auto; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace; font-size: 14px; margin-top: 0px; margin-bottom: 16px; line-height: 1.45; padding: 16px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; word-wrap: normal; color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);">def wish():\u000a    wishes=db(db.plugin_wish_wishes.apply_time!=None).select(orderby=~db.plugin_wish_wishes.apply_time, limitby=(0,100))\u000a    return dict(wishes=wishes)\u000a</pre>\u000a<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px; text-align: start;">\u000a	2.Adding the following script in your db.py.</p>\u000a<pre style="box-sizing: border-box; overflow: auto; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace; font-size: 14px; margin-top: 0px; line-height: 1.45; padding: 16px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; word-wrap: normal; color: rgb(51, 51, 51); margin-bottom: 0px !important; background-color: rgb(247, 247, 247);">from plugin_wish import Wish\u000awish = Wish(db)\u000awish.define_tables()</pre>\u000a
+p1631
+sVpypi
+p1632
+V
+sVis_active
+p1633
+I01
+sVmodified_on
+p1634
+NsVarticle_id
+p1635
+I1996
+sVlicense_version
+p1636
+V
+sVmarkup
+p1637
+Vhtml
+p1638
+sVdocumentation
+p1639
+V
+sVlicense_url
+p1640
+V
+sVqualification
+p1641
+(lp1642
+sVrepository_page
+p1643
+V
+sVlicense_type
+p1644
+Vmit
+p1645
+sVrepository_project
+p1646
+VSnowingWishes
+p1647
+ssa(dp1648
+Varticle
+p1649
+(dp1650
+Vfavorited
+p1651
+I0
+sVdislikes
+p1652
+I0
+sVauthor_nickname
+p1653
+NsVfeatured
+p1654
+I00
+sVlikes
+p1655
+I0
+sVkeywords
+p1656
+NsVid
+p1657
+I1998
+sVdescription
+p1658
+VThumbnails plugin for the web2py framework.\u000a\u000aThis plugin allows automatic creation of thumbnails from image upload fields. It creates a virtual field and not modify original tables.
+p1659
+sVmodified_by
+p1660
+I2298
+sVauthor
+p1661
+I2298
+sVviews
+p1662
+I180
+sVcreated_by
+p1663
+I2298
+sVdraft
+p1664
+I00
+sVpublish_date
+p1665
+NsVblocked
+p1666
+I00
+sVthumbnail
+p1667
+NsVpicture
+p1668
+V
+sVresponses
+p1669
+I0
+sVsubscriptions
+p1670
+I0
+sVis_active
+p1671
+I00
+sVcontent_type
+p1672
+NsVmodified_on
+p1673
+NsVslug
+p1674
+Vthumbnails-plugin
+p1675
+sVtags
+p1676
+(lp1677
+Vthumbnails
+p1678
+aVimages
+p1679
+aVplugin
+p1680
+asVcontent_type_id
+p1681
+I4
+sVlicense
+p1682
+V1
+sVprivacy
+p1683
+NsVcreated_on
+p1684
+NsVmedium_thumbnail
+p1685
+NsVpublish_tz
+p1686
+NsVtitle
+p1687
+VThumbnails plugin
+p1688
+sVcategory_id
+p1689
+(lp1690
+ssVpackage_data
+p1691
+(dp1692
+Vpackage_type
+p1693
+Vplugin
+p1694
+sVtype_id
+p1695
+I4
+sVdemo
+p1696
+V
+sVdownload
+p1697
+Vhttps://github.com/cccaballero/web2py-thumbnails
+p1698
+sVcreated_on
+p1699
+NsVrepository_url
+p1700
+Vhttps://github.com/cccaballero/web2py-thumbnails
+p1701
+sVscreenshots
+p1702
+(lp1703
+sVid
+p1704
+I35
+sVmodified_by
+p1705
+I2298
+sVlicense_body
+p1706
+V
+sVcreated_by
+p1707
+I2298
+sVrepository_brand
+p1708
+Vgit
+p1709
+sVbody
+p1710
+V<h4>\u000a	web2py-thumbnails</h4>\u000a<p>\u000a	Thumbnails plugin for the web2py framework.</p>\u000a<p>\u000a	This plugin allows automatic creation of thumbnails from image upload fields. It creates a virtual field and not modify original tables.</p>\u000a<h4>\u000a	Installation</h4>\u000a<ul class="task-list">\u000a	<li>\u000a		Install or include Python Imaging Library (PIL)</li>\u000a	<li>\u000a		Download The plugin installer (.w2p file) and install it via the web2py interface.</li>\u000a</ul>\u000a<h4>\u000a	Usage</h4>\u000a<pre class="prettyprint linenums"># coding: utf8\u000a\u000adb = DAL()\u000adb.define_table(&#39;mytable&#39;,Field(&#39;myfield&#39;,&#39;string&#39;),\u000a                          Field(&#39;img&#39;,&#39;upload&#39;))\u000a\u000afrom plugin_thumbnails.thumbnails import thumbnails       # imports thumbnails plugin\u000athumb = thumbnails(db)                                    # instantiate plugin and crete needed table\u000athumb.create(db.mytable.img)                              # create thumbnails for mytable img field\u000a\u000adb.mytable.insert(myfield=&#39;Char&#39;,img=image)               # automatically create thumbnail for img field\u000adb(db.mytable.id).update(img=new_image)                   # automatically update thumbnail\u000athumbnail = db(db.mytable).select().first().img_thumbnail # select thumbnail\u000adb(db.mytable).delete()                                   # automatically delete thumbnail\u000a\u000a</pre>\u000a
+p1711
+sVpypi
+p1712
+V
+sVis_active
+p1713
+I01
+sVmodified_on
+p1714
+NsVarticle_id
+p1715
+I1998
+sVlicense_version
+p1716
+V
+sVmarkup
+p1717
+Vhtml
+p1718
+sVdocumentation
+p1719
+V
+sVlicense_url
+p1720
+V
+sVqualification
+p1721
+(lp1722
+sVrepository_page
+p1723
+Vhttps://github.com/cccaballero/web2py-thumbnails
+p1724
+sVlicense_type
+p1725
+Vgpl
+p1726
+sVrepository_project
+p1727
+Vweb2py-thumbnails
+p1728
+ssa(dp1729
+Varticle
+p1730
+(dp1731
+Vfavorited
+p1732
+I0
+sVdislikes
+p1733
+I0
+sVauthor_nickname
+p1734
+NsVfeatured
+p1735
+I00
+sVlikes
+p1736
+I0
+sVkeywords
+p1737
+NsVid
+p1738
+I1999
+sVdescription
+p1739
+VThis plugin allows automatic creation of thumbnails from image upload fields. It creates a virtual field and not modify original tables.
+p1740
+sVmodified_by
+p1741
+I2298
+sVauthor
+p1742
+I2298
+sVviews
+p1743
+I158
+sVcreated_by
+p1744
+I2298
+sVdraft
+p1745
+I00
+sVpublish_date
+p1746
+NsVblocked
+p1747
+I00
+sVthumbnail
+p1748
+NsVpicture
+p1749
+V
+sVresponses
+p1750
+I0
+sVsubscriptions
+p1751
+I0
+sVis_active
+p1752
+I00
+sVcontent_type
+p1753
+NsVmodified_on
+p1754
+NsVslug
+p1755
+Vthumbnails-plugin
+p1756
+sVtags
+p1757
+(lp1758
+Vthumbnails
+p1759
+aVplugin
+p1760
+asVcontent_type_id
+p1761
+I4
+sVlicense
+p1762
+V2
+sVprivacy
+p1763
+NsVcreated_on
+p1764
+NsVmedium_thumbnail
+p1765
+NsVpublish_tz
+p1766
+NsVtitle
+p1767
+VThumbnails plugin
+p1768
+sVcategory_id
+p1769
+(lp1770
+I41
+assVpackage_data
+p1771
+(dp1772
+Vpackage_type
+p1773
+Vplugin
+p1774
+sVtype_id
+p1775
+I4
+sVdemo
+p1776
+V
+sVdownload
+p1777
+Vhttps://github.com/cccaballero/web2py-thumbnails/blob/master/web2py.plugin.thumbnails.w2p?raw=true
+p1778
+sVcreated_on
+p1779
+NsVrepository_url
+p1780
+Vhttps://github.com/cccaballero/web2py-thumbnails
+p1781
+sVscreenshots
+p1782
+(lp1783
+sVid
+p1784
+I36
+sVmodified_by
+p1785
+I2298
+sVlicense_body
+p1786
+V
+sVcreated_by
+p1787
+I2298
+sVrepository_brand
+p1788
+Vgit
+p1789
+sVbody
+p1790
+V<h3>\u000a	Thumbnails plugin for the web2py framework.</h3>\u000a<p>\u000a	This plugin allows automatic creation of thumbnails from image upload fields. It creates a virtual field and not modify original tables.</p>\u000a<h4>\u000a	Installation</h4>\u000a<ul class="task-list">\u000a	<li>\u000a		Install or include Python Imaging Library (PIL)</li>\u000a	<li>\u000a		Download The plugin installer (.w2p file) and install it via the web2py interface.</li>\u000a</ul>\u000a<h4>\u000a	Usage</h4>\u000a<pre class="prettyprint linenums"># coding: utf8\u000a\u000adb = DAL()\u000adb.define_table(&#39;mytable&#39;,Field(&#39;myfield&#39;,&#39;string&#39;),\u000a                          Field(&#39;img&#39;,&#39;upload&#39;))\u000a\u000afrom plugin_thumbnails.thumbnails import thumbnails       # imports thumbnails plugin\u000athumb = thumbnails(db)                                    # instantiate plugin and crete needed table\u000athumb.create(db.mytable.img)                              # create thumbnails for mytable img field\u000a\u000adb.mytable.insert(myfield=&#39;Char&#39;,img=image)               # automatically create thumbnail for img field\u000adb(db.mytable.id).update(img=new_image)                   # automatically update thumbnail\u000athumbnail = db(db.mytable).select().first().img_thumbnail # select thumbnail\u000adb(db.mytable).delete()                                   # automatically delete thumbnail\u000a\u000a</pre>\u000a
+p1791
+sVpypi
+p1792
+V
+sVis_active
+p1793
+I01
+sVmodified_on
+p1794
+NsVarticle_id
+p1795
+I1999
+sVlicense_version
+p1796
+V
+sVmarkup
+p1797
+Vhtml
+p1798
+sVdocumentation
+p1799
+V
+sVlicense_url
+p1800
+V
+sVqualification
+p1801
+(lp1802
+sVrepository_page
+p1803
+Vhttps://github.com/cccaballero/web2py-thumbnails
+p1804
+sVlicense_type
+p1805
+Vlgpl
+p1806
+sVrepository_project
+p1807
+Vweb2py-thumbnails
+p1808
+ssa(dp1809
+Varticle
+p1810
+(dp1811
+Vfavorited
+p1812
+I0
+sVdislikes
+p1813
+I0
+sVauthor_nickname
+p1814
+NsVfeatured
+p1815
+I00
+sVlikes
+p1816
+I0
+sVkeywords
+p1817
+NsVid
+p1818
+I2000
+sVdescription
+p1819
+VThis plugin allows automatic creation of thumbnails from image upload fields. It creates a virtual field and not modify original tables.
+p1820
+sVmodified_by
+p1821
+NsVauthor
+p1822
+I2298
+sVviews
+p1823
+I4056
+sVcreated_by
+p1824
+I2298
+sVdraft
+p1825
+I00
+sVpublish_date
+p1826
+NsVblocked
+p1827
+I00
+sVthumbnail
+p1828
+NsVpicture
+p1829
+V
+sVresponses
+p1830
+I0
+sVsubscriptions
+p1831
+I0
+sVis_active
+p1832
+I01
+sVcontent_type
+p1833
+NsVmodified_on
+p1834
+NsVslug
+p1835
+Vthumbnails-plugin
+p1836
+sVtags
+p1837
+(lp1838
+Vplugin
+p1839
+aVthumbnails
+p1840
+asVcontent_type_id
+p1841
+I4
+sVlicense
+p1842
+V1
+sVprivacy
+p1843
+NsVcreated_on
+p1844
+NsVmedium_thumbnail
+p1845
+NsVpublish_tz
+p1846
+NsVtitle
+p1847
+VThumbnails plugin
+p1848
+sVcategory_id
+p1849
+(lp1850
+I41
+assVpackage_data
+p1851
+(dp1852
+Vpackage_type
+p1853
+Vplugin
+p1854
+sVtype_id
+p1855
+I4
+sVdemo
+p1856
+V
+sVdownload
+p1857
+Vhttps://github.com/daxslab/web2py-thumbnails/blob/master/web2py.plugin.thumbnails.w2p?raw=true
+p1858
+sVcreated_on
+p1859
+NsVrepository_url
+p1860
+Vhttps://github.com/daxslab/web2py-thumbnails
+p1861
+sVscreenshots
+p1862
+(lp1863
+sVid
+p1864
+I37
+sVmodified_by
+p1865
+I2298
+sVlicense_body
+p1866
+V
+sVcreated_by
+p1867
+I2298
+sVrepository_brand
+p1868
+Vgit
+p1869
+sVbody
+p1870
+V<h3>\u000a	Thumbnails plugin for the web2py framework.</h3>\u000a<p>\u000a	This plugin allows automatic creation of thumbnails from image upload fields. It creates a virtual field and not modify original tables.</p>\u000a<h4>\u000a	Installation</h4>\u000a<ul class="task-list">\u000a	<li>\u000a		Install or include Python Imaging Library (PIL)</li>\u000a	<li>\u000a		Download The plugin installer (.w2p file) and install it via the web2py interface.</li>\u000a</ul>\u000a<h4>\u000a	Usage</h4>\u000a<pre style="box-sizing: border-box; overflow: auto; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace; font-size: 13.6000003814697px; margin-top: 0px; margin-bottom: 0px; font-stretch: normal; line-height: 1.45; padding: 16px; border-radius: 3px; word-wrap: normal; word-break: normal; color: rgb(51, 51, 51); background-color: rgb(247, 247, 247);"><span class="pl-c" style="box-sizing: border-box; color: rgb(150, 152, 150);"># coding: utf8</span>\u000a\u000adb <span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span> DAL()\u000adb.define_table(<span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>mytable<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>,Field(<span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>myfield<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>,<span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>string<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>),\u000a                          Field(<span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>img<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>,<span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>upload<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>))\u000a\u000a<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">from</span> plugin_thumbnails.thumbnails <span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">import</span> thumbnails          <span class="pl-c" style="box-sizing: border-box; color: rgb(150, 152, 150);"># imports thumbnails plugin</span>\u000athumb <span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span> thumbnails(db, <span class="pl-smi" style="box-sizing: border-box;">autodelete</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-c1" style="box-sizing: border-box; color: rgb(0, 134, 179);">True</span>)                      <span class="pl-c" style="box-sizing: border-box; color: rgb(150, 152, 150);"># instantiate plugin and crete thumbnails table</span>\u000athumb.create(db.mytable.img, (<span class="pl-c1" style="box-sizing: border-box; color: rgb(0, 134, 179);">150</span>, <span class="pl-c1" style="box-sizing: border-box; color: rgb(0, 134, 179);">150</span>), <span class="pl-smi" style="box-sizing: border-box;">use_imageops</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-c1" style="box-sizing: border-box; color: rgb(0, 134, 179);">True</span>)  <span class="pl-c" style="box-sizing: border-box; color: rgb(150, 152, 150);"># create thumbnails for mytable img field</span>\u000a\u000adb.mytable.insert(<span class="pl-smi" style="box-sizing: border-box;">myfield</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>Char<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>,<span class="pl-smi" style="box-sizing: border-box;">img</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span>image)                  <span class="pl-c" style="box-sizing: border-box; color: rgb(150, 152, 150);"># automatically create thumbnail for img field</span>\u000adb(db.mytable.id<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">==</span><span class="pl-c1" style="box-sizing: border-box; color: rgb(0, 134, 179);">1</span>).update(<span class="pl-smi" style="box-sizing: border-box;">img</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span>new_image)                   <span class="pl-c" style="box-sizing: border-box; color: rgb(150, 152, 150);"># automatically update thumbnail</span>\u000athumbnail <span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span> db(db.mytable).select().first().img_thumbnail    <span class="pl-c" style="box-sizing: border-box; color: rgb(150, 152, 150);"># select thumbnail</span>\u000adb(db.mytable.id<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">==</span><span class="pl-c1" style="box-sizing: border-box; color: rgb(0, 134, 179);">1</span>).delete()                                <span class="pl-c" style="box-sizing: border-box; color: rgb(150, 152, 150);"># automatically delete thumbnail</span></pre>\u000a
+p1871
+sVpypi
+p1872
+V
+sVis_active
+p1873
+I01
+sVmodified_on
+p1874
+NsVarticle_id
+p1875
+I2000
+sVlicense_version
+p1876
+V
+sVmarkup
+p1877
+Vhtml
+p1878
+sVdocumentation
+p1879
+V
+sVlicense_url
+p1880
+V
+sVqualification
+p1881
+(lp1882
+sVrepository_page
+p1883
+Vhttps://github.com/daxslab/web2py-thumbnails
+p1884
+sVlicense_type
+p1885
+Vlgpl
+p1886
+sVrepository_project
+p1887
+Vweb2py-thumbnails
+p1888
+ssa(dp1889
+Varticle
+p1890
+(dp1891
+Vfavorited
+p1892
+I0
+sVdislikes
+p1893
+I0
+sVauthor_nickname
+p1894
+NsVfeatured
+p1895
+I00
+sVlikes
+p1896
+I0
+sVkeywords
+p1897
+NsVid
+p1898
+I2018
+sVdescription
+p1899
+VCreate admin group (and other groups), make possible edit user membership of the groups.
+p1900
+sVmodified_by
+p1901
+NsVauthor
+p1902
+I2198
+sVviews
+p1903
+I3298
+sVcreated_by
+p1904
+I2198
+sVdraft
+p1905
+I00
+sVpublish_date
+p1906
+NsVblocked
+p1907
+I00
+sVthumbnail
+p1908
+NsVpicture
+p1909
+V
+sVresponses
+p1910
+I0
+sVsubscriptions
+p1911
+I0
+sVis_active
+p1912
+I01
+sVcontent_type
+p1913
+NsVmodified_on
+p1914
+NsVslug
+p1915
+Vplugin-manage-groups
+p1916
+sVtags
+p1917
+(lp1918
+Vadmin
+p1919
+aVgroups
+p1920
+aVmembership
+p1921
+aVauth
+p1922
+asVcontent_type_id
+p1923
+I4
+sVlicense
+p1924
+V1
+sVprivacy
+p1925
+NsVcreated_on
+p1926
+NsVmedium_thumbnail
+p1927
+NsVpublish_tz
+p1928
+NsVtitle
+p1929
+Vplugin_MANAGE_GROUPS
+p1930
+sVcategory_id
+p1931
+(lp1932
+ssVpackage_data
+p1933
+(dp1934
+Vpackage_type
+p1935
+Vplugin
+p1936
+sVtype_id
+p1937
+I4
+sVdemo
+p1938
+V
+sVdownload
+p1939
+Vhttps://zvolsky.github.io/plugin_manage_groups/web2py.plugin.manage_groups.w2p
+p1940
+sVcreated_on
+p1941
+NsVrepository_url
+p1942
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p1943
+sVscreenshots
+p1944
+(lp1945
+sVid
+p1946
+I38
+sVmodified_by
+p1947
+I2198
+sVlicense_body
+p1948
+VSame licensing as Web2py
+p1949
+sVcreated_by
+p1950
+I2198
+sVrepository_brand
+p1951
+Vgit
+p1952
+sVbody
+p1953
+V<p>\u000a	<strong>If INSTALL doesn&#39;t work: please download the plugin from&nbsp;<a href="https://zvolsky.github.io/plugin_manage_groups/web2py.plugin.manage_groups.w2p">https://zvolsky.github.io/plugin_manage_groups/web2py.plugin.manage_groups.w2p</a>&nbsp;and upload the .w2p file in admin interface, edit application, plugins. Thanks.</strong></p>\u000a<p>\u000a	Creates an admin group, makes the first user its member and give him possibility to manage admin membership at url</p>\u000a<p>\u000a	(app)/plugin_manage_groups</p>\u000a<p>\u000a	and create/manage other groups at url</p>\u000a<p>\u000a	(app)/plugin_manage_groups/group/(group-name)</p>\u000a
+p1954
+sVpypi
+p1955
+V
+sVis_active
+p1956
+I01
+sVmodified_on
+p1957
+NsVarticle_id
+p1958
+I2018
+sVlicense_version
+p1959
+V3
+sVmarkup
+p1960
+Vhtml
+p1961
+sVdocumentation
+p1962
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p1963
+sVlicense_url
+p1964
+Vhttps://github.com/zvolsky/plugin_manage_groups/blob/master/LICENSE
+p1965
+sVqualification
+p1966
+(lp1967
+sVrepository_page
+p1968
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p1969
+sVlicense_type
+p1970
+Vlgpl
+p1971
+sVrepository_project
+p1972
+Vplugin_MANAGE_GROUPS
+p1973
+ssa(dp1974
+Varticle
+p1975
+(dp1976
+Vfavorited
+p1977
+I0
+sVdislikes
+p1978
+I0
+sVauthor_nickname
+p1979
+NsVfeatured
+p1980
+I00
+sVlikes
+p1981
+I0
+sVkeywords
+p1982
+NsVid
+p1983
+I2028
+sVdescription
+p1984
+VTesting - what type of 'slice' will be counted in profile as 'wrote N slices' to give possibility to edit previous entries?
+p1985
+sVmodified_by
+p1986
+I1013
+sVauthor
+p1987
+I2478
+sVviews
+p1988
+I5
+sVcreated_by
+p1989
+I2478
+sVdraft
+p1990
+I00
+sVpublish_date
+p1991
+NsVblocked
+p1992
+I00
+sVthumbnail
+p1993
+NsVpicture
+p1994
+V
+sVresponses
+p1995
+I0
+sVsubscriptions
+p1996
+I0
+sVis_active
+p1997
+I00
+sVcontent_type
+p1998
+NsVmodified_on
+p1999
+NsVslug
+p2000
+Vtesting-what-type-of-slice-will-be-counted-package-as-other-user
+p2001
+sVtags
+p2002
+(lp2003
+Vplugin
+p2004
+asVcontent_type_id
+p2005
+I4
+sVlicense
+p2006
+V2
+sVprivacy
+p2007
+NsVcreated_on
+p2008
+NsVmedium_thumbnail
+p2009
+NsVpublish_tz
+p2010
+NsVtitle
+p2011
+VTesting - what type of 'slice' will be counted - Package? (as other user)
+p2012
+sVcategory_id
+p2013
+(lp2014
+I41
+assVpackage_data
+p2015
+(dp2016
+Vpackage_type
+p2017
+Vplugin
+p2018
+sVtype_id
+p2019
+I4
+sVdemo
+p2020
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2021
+sVdownload
+p2022
+Vhttps://zvolsky.github.io/plugin_manage_groups/web2py.plugin.manage_groups.w2p
+p2023
+sVcreated_on
+p2024
+NsVrepository_url
+p2025
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2026
+sVscreenshots
+p2027
+(lp2028
+sVid
+p2029
+I39
+sVmodified_by
+p2030
+I2478
+sVlicense_body
+p2031
+VLGPLv3 and/or same as Web2py
+p2032
+sVcreated_by
+p2033
+I2478
+sVrepository_brand
+p2034
+Vgit
+p2035
+sVbody
+p2036
+V<p>\u000a	<span style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">Create admin group (and other groups), make possible edit user membership of the groups.</span></p>\u000a
+p2037
+sVpypi
+p2038
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2039
+sVis_active
+p2040
+I01
+sVmodified_on
+p2041
+NsVarticle_id
+p2042
+I2028
+sVlicense_version
+p2043
+Vv3
+p2044
+sVmarkup
+p2045
+Vhtml
+p2046
+sVdocumentation
+p2047
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2048
+sVlicense_url
+p2049
+Vhttps://github.com/zvolsky/plugin_manage_groups/blob/master/LICENSE
+p2050
+sVqualification
+p2051
+(lp2052
+sVrepository_page
+p2053
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2054
+sVlicense_type
+p2055
+Vlgpl
+p2056
+sVrepository_project
+p2057
+Vplugin_MANAGE_GROUPS
+p2058
+ssa(dp2059
+Varticle
+p2060
+(dp2061
+Vfavorited
+p2062
+I0
+sVdislikes
+p2063
+I0
+sVauthor_nickname
+p2064
+NsVfeatured
+p2065
+I00
+sVlikes
+p2066
+I0
+sVkeywords
+p2067
+NsVid
+p2068
+I2029
+sVdescription
+p2069
+VTesting - what type of 'slice' will be counted in profile as 'wrote N slices' to give possibility to edit previous entries?
+p2070
+sVmodified_by
+p2071
+I1013
+sVauthor
+p2072
+I2478
+sVviews
+p2073
+I3
+sVcreated_by
+p2074
+I2478
+sVdraft
+p2075
+I00
+sVpublish_date
+p2076
+NsVblocked
+p2077
+I00
+sVthumbnail
+p2078
+NsVpicture
+p2079
+V
+sVresponses
+p2080
+I0
+sVsubscriptions
+p2081
+I0
+sVis_active
+p2082
+I00
+sVcontent_type
+p2083
+NsVmodified_on
+p2084
+NsVslug
+p2085
+Vtesting-what-type-of-slice-will-be-counted-package-as-other-user-2
+p2086
+sVtags
+p2087
+(lp2088
+Vplugin
+p2089
+asVcontent_type_id
+p2090
+I4
+sVlicense
+p2091
+V2
+sVprivacy
+p2092
+NsVcreated_on
+p2093
+NsVmedium_thumbnail
+p2094
+NsVpublish_tz
+p2095
+NsVtitle
+p2096
+VTesting - what type of 'slice' will be counted - Package? (as other user /2)
+p2097
+sVcategory_id
+p2098
+(lp2099
+ssVpackage_data
+p2100
+(dp2101
+Vpackage_type
+p2102
+Vplugin
+p2103
+sVtype_id
+p2104
+I4
+sVdemo
+p2105
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2106
+sVdownload
+p2107
+Vhttps://zvolsky.github.io/plugin_manage_groups/web2py.plugin.manage_groups.w2p
+p2108
+sVcreated_on
+p2109
+NsVrepository_url
+p2110
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2111
+sVscreenshots
+p2112
+(lp2113
+sVid
+p2114
+I40
+sVmodified_by
+p2115
+I2478
+sVlicense_body
+p2116
+VLGPLv3
+p2117
+sVcreated_by
+p2118
+I2478
+sVrepository_brand
+p2119
+Vgit
+p2120
+sVbody
+p2121
+V<p>\u000a	<span style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">Create admin group (and other groups), make possible edit user membership of the groups.</span></p>\u000a
+p2122
+sVpypi
+p2123
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2124
+sVis_active
+p2125
+I01
+sVmodified_on
+p2126
+NsVarticle_id
+p2127
+I2029
+sVlicense_version
+p2128
+Vv3
+p2129
+sVmarkup
+p2130
+Vhtml
+p2131
+sVdocumentation
+p2132
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2133
+sVlicense_url
+p2134
+Vhttps://github.com/zvolsky/plugin_manage_groups/blob/master/LICENSE
+p2135
+sVqualification
+p2136
+(lp2137
+sVrepository_page
+p2138
+Vhttps://github.com/zvolsky/plugin_manage_groups
+p2139
+sVlicense_type
+p2140
+Vlgpl
+p2141
+sVrepository_project
+p2142
+Vplugin_MANAGE_GROUPS
+p2143
+ssa(dp2144
+Varticle
+p2145
+(dp2146
+Vfavorited
+p2147
+I1
+sVdislikes
+p2148
+I0
+sVauthor_nickname
+p2149
+NsVfeatured
+p2150
+I00
+sVlikes
+p2151
+I2
+sVkeywords
+p2152
+NsVid
+p2153
+I2042
+sVdescription
+p2154
+VHandsOnTable\u000a(http://handsontable.com)\u000ais a great javascript library that can be used in many different ways. \u000aHere you have a plugin for web2py that shows how to use for the following purpose:\u000aYou have two tables t1 and t2 (example: db.auth_user and db.product) and a table t3 that is a "product" of t1 and t2 (this user wants this much of this product).\u000a\u000aA natural syntax gives you a grid that allows whose rows are entries of t1, whose columns are entries of t2, and which allows you to edit a number at the grid that crosses row and column.\u000a\u000aMore info on:\u000a\u000ahttps://gitlab.com/the_pang/plugin_hotsheet/wikis/home
+p2155
+sVmodified_by
+p2156
+NsVauthor
+p2157
+I2461
+sVviews
+p2158
+I7333
+sVcreated_by
+p2159
+I2461
+sVdraft
+p2160
+I00
+sVpublish_date
+p2161
+NsVblocked
+p2162
+I00
+sVthumbnail
+p2163
+Varticle.picture.a586b58cc3f4d2e7.706c7567696e5f686f7473686565745f736d616c6c65722e706e67_thumb.png
+p2164
+sVpicture
+p2165
+Varticle.picture.a586b58cc3f4d2e7.706c7567696e5f686f7473686565745f736d616c6c65722e706e67.png
+p2166
+sVresponses
+p2167
+I0
+sVsubscriptions
+p2168
+I2
+sVis_active
+p2169
+I01
+sVcontent_type
+p2170
+NsVmodified_on
+p2171
+NsVslug
+p2172
+Vhandsontable-plugin-for-a-spreadsheet
+p2173
+sVtags
+p2174
+(lp2175
+Vhandsontable
+p2176
+aVsheet
+p2177
+aVspreadsheet
+p2178
+asVcontent_type_id
+p2179
+I4
+sVlicense
+p2180
+V2
+sVprivacy
+p2181
+NsVcreated_on
+p2182
+NsVmedium_thumbnail
+p2183
+Varticle.picture.a586b58cc3f4d2e7.706c7567696e5f686f7473686565745f736d616c6c65722e706e67_medium_thumb.png
+p2184
+sVpublish_tz
+p2185
+NsVtitle
+p2186
+VHandsOnTable plugin for a spreadsheet
+p2187
+sVcategory_id
+p2188
+(lp2189
+ssVpackage_data
+p2190
+(dp2191
+Vpackage_type
+p2192
+Vplugin
+p2193
+sVtype_id
+p2194
+I4
+sVdemo
+p2195
+V
+sVdownload
+p2196
+Vhttps://gitlab.com/the_pang/plugin_hotsheet/repository/archive.tar.gz?ref=master
+p2197
+sVcreated_on
+p2198
+NsVrepository_url
+p2199
+Vhttps://gitlab.com/the_pang/plugin_hotsheet/tree/master
+p2200
+sVscreenshots
+p2201
+(lp2202
+sVid
+p2203
+I44
+sVmodified_by
+p2204
+I2461
+sVlicense_body
+p2205
+VSame license as web2py, even if it changes in the future!\u000a\u000aJust for reference:\u000a\u000a## Web2py License\u000a\u000aPlugin_hotsheet is Licensed under the LGPL license version 3 \u000a(http://www.gnu.org/licenses/lgpl.html)\u000a\u000aCopyrighted (c) by Pablo Angulo (2015)\u000a\u000a### On Commercial Redistribution\u000a\u000aIn accordance with LGPL you may:\u000a- redistribute web2py with your apps (including official web2py binary versions)\u000a- release your applications which use official web2py libraries under any license you wish\u000aBut you must:\u000a- make clear in the documentation that your application uses web2py\u000a- release any modification of the web2py libraries under the LGPLv3 license\u000a\u000aTHERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.\u000aEXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES \u000aPROVIDE THE PROGRAM \u201cAS IS\u201d WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, \u000aINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS \u000aFOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE \u000aPROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL \u000aNECESSARY SERVICING, REPAIR OR CORRECTION.\u000a\u000aIN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT \u000aHOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, \u000aBE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL \u000aDAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED \u000aTO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES \u000aOR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER \u000aPARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+p2206
+sVcreated_by
+p2207
+I2461
+sVrepository_brand
+p2208
+Vgit
+p2209
+sVbody
+p2210
+V<p>\u000a	Suppose you have a models file like this:</p>\u000a<pre class="prettyprint linenums"># -*- coding: utf-8 -*-\u000a\u000afrom decimal import Decimal\u000a\u000adb.define_table(&#39;producer&#39;,\u000a    Field(&#39;name&#39;,&#39;string&#39;, length=255, unique=True),\u000a)\u000a\u000adb.define_table(&#39;product&#39;,\u000a    Field(&#39;name&#39;,&#39;string&#39;, length=255,notnull=True),\u000a    Field(&#39;producer&#39;, db.producer,requires=IS_IN_DB(db,db.producer,&#39;%(name)s&#39;)),#, readable=False, writable=False),\u000a    Field(&#39;description&#39;,&#39;string&#39;, length=2048),\u000a    Field(&#39;price&#39;,&#39;decimal(9,2)&#39;,\u000a          requires = IS_DECIMAL_IN_RANGE(-1e6,1e6,dot=&#39;,&#39;)),\u000a    format=&#39;%(name)s&#39;\u000a)\u000a\u000adb.define_table(&#39;item&#39;,\u000a    Field(&#39;product&#39;, db.product,\u000a          requires = IS_IN_DB(db, db.product)),\u000a    Field(&#39;user_id&#39;, db.auth_user),\u000a    Field(&#39;order_date&#39;, &#39;date&#39;),\u000a    Field(&#39;amount&#39;, &#39;decimal(9,2)&#39;,\u000a          requires = IS_EMPTY_OR(IS_DECIMAL_IN_RANGE(0,1e6)),\u000a          default=Decimal(0)),\u000a)\u000a</pre>\u000a<p>\u000a	&nbsp;</p>\u000a<p>\u000a	then a controller like this one:</p>\u000a<p>\u000a	&nbsp;</p>\u000a<pre class="prettyprint linenums"># -*- coding: utf-8 -*-\u000a\u000adef index():\u000a    from plugin_hotsheet import HOTSheet\u000a    \u000a    date = request.vars.date\u000a    iproducer = long(request.vars.producer)\u000a    producer = db.producer(iproducer)\u000a    igroup = long(request.vars.group)\u000a    group = db.auth_group(igroup)\u000a\u000a    response.title = T(&#39;orders for group %s producer %s and date %s&#39;)%(\u000a        group.role, producer.name, date\u000a    )\u000a\u000a    #rows\u000a    query_products = (db.product.producer==iproducer)\u000a    ls_products = [(row.id, row.name) \u000a                    for row in db(query_products)\u000a                        .select(db.product.id, db.product.name,\u000a                                orderby=db.product.name)]\u000a    row_ids = [id for id,_ in ls_products]    \u000a    row_headers = [nproduct for _,nproduct in ls_products]    \u000a\u000a    #cols\u000a    people = [(row.id, row.first_name) for row in\u000a                 db((db.auth_user.id==db.auth_membership.user_id) &amp;\u000a                    (db.auth_membership.group_id==igroup))\u005c\u000a                  .select(db.auth_user.id, db.auth_user.first_name,\u000a                          orderby=db.auth_user.first_name)]\u000a    col_ids = [id for id,_ in people]\u000a    col_headers = [m for _,m in people]\u000a\u000a    #data\u000a    query = ((db.item.user_id==db.auth_user.id) &amp;\u000a             (db.auth_membership.user_id==db.auth_user.id) &amp;\u000a             (db.auth_membership.group_id==igroup) &amp;\u000a             (db.item.order_date==date))\u000a    \u000a    sheet = HOTSheet(query,\u000a                    db.item.product,\u000a                    db.item.user_id,\u000a                    db.item.amount,\u000a                    col_ids=col_ids,\u000a                    row_ids=row_ids,\u000a                    row_headers=row_headers,\u000a                    col_headers=col_headers,\u000a                    extra_values={&#39;order_date&#39;:date}\u000a                    )\u000a\u000a    if sheet.accepts(request.vars):\u000a        session.flash=&#39;Updated!&#39;\u000a\u000a    return dict(sheet=sheet)\u000a</pre>\u000a<p>\u000a	&nbsp;</p>\u000a<p>\u000a	will output the spreadsheet. This is an example of moderate complexity, in order to show you that you don&#39;t have to expose all the table db.item.</p>\u000a<hr />\u000a<p>\u000a	&nbsp;</p>\u000a
+p2211
+sVpypi
+p2212
+V
+sVis_active
+p2213
+I01
+sVmodified_on
+p2214
+NsVarticle_id
+p2215
+I2042
+sVlicense_version
+p2216
+VSame as web2py
+p2217
+sVmarkup
+p2218
+Vhtml
+p2219
+sVdocumentation
+p2220
+Vhttps://gitlab.com/the_pang/plugin_hotsheet/wikis/home
+p2221
+sVlicense_url
+p2222
+VSame as web2py
+p2223
+sVqualification
+p2224
+(lp2225
+sVrepository_page
+p2226
+Vhttps://gitlab.com/the_pang/plugin_hotsheet/tree/master
+p2227
+sVlicense_type
+p2228
+Vlgpl
+p2229
+sVrepository_project
+p2230
+Vplugin_hotsheet
+p2231
+ssa(dp2232
+Varticle
+p2233
+(dp2234
+Vfavorited
+p2235
+I0
+sVdislikes
+p2236
+I0
+sVauthor_nickname
+p2237
+NsVfeatured
+p2238
+I00
+sVlikes
+p2239
+I1
+sVkeywords
+p2240
+NsVid
+p2241
+I2048
+sVdescription
+p2242
+VSimple SEO metadata plugin for web2py including Open Graph and Twitter Cards
+p2243
+sVmodified_by
+p2244
+NsVauthor
+p2245
+I2298
+sVviews
+p2246
+I4317
+sVcreated_by
+p2247
+I2298
+sVdraft
+p2248
+I00
+sVpublish_date
+p2249
+NsVblocked
+p2250
+I00
+sVthumbnail
+p2251
+NsVpicture
+p2252
+V
+sVresponses
+p2253
+I0
+sVsubscriptions
+p2254
+I1
+sVis_active
+p2255
+I01
+sVcontent_type
+p2256
+NsVmodified_on
+p2257
+NsVslug
+p2258
+Vsimple-seo
+p2259
+sVtags
+p2260
+(lp2261
+sVcontent_type_id
+p2262
+I4
+sVlicense
+p2263
+V1
+sVprivacy
+p2264
+NsVcreated_on
+p2265
+NsVmedium_thumbnail
+p2266
+NsVpublish_tz
+p2267
+NsVtitle
+p2268
+VSimple SEO
+p2269
+sVcategory_id
+p2270
+(lp2271
+ssVpackage_data
+p2272
+(dp2273
+Vpackage_type
+p2274
+Vplugin
+p2275
+sVtype_id
+p2276
+I4
+sVdemo
+p2277
+V
+sVdownload
+p2278
+Vhttps://github.com/daxslab/web2py-simple-seo/blob/master/web2py.plugin.simple_seo.w2p?raw=true
+p2279
+sVcreated_on
+p2280
+NsVrepository_url
+p2281
+Vhttps://github.com/daxslab/web2py-simple-seo
+p2282
+sVscreenshots
+p2283
+(lp2284
+sVid
+p2285
+I45
+sVmodified_by
+p2286
+I2298
+sVlicense_body
+p2287
+V
+sVcreated_by
+p2288
+I2298
+sVrepository_brand
+p2289
+Vgit
+p2290
+sVbody
+p2291
+V<h1 style="box-sizing: border-box; font-size: 2.25em; margin-bottom: 16px; line-height: 1.2; position: relative; padding-bottom: 0.3em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; margin-top: 0px !important;">\u000a	web2py-simple-seo</h1>\u000a<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px; text-align: start;">\u000a	Simple SEO metadata plugin for web2py including Open Graph and Twitter Cards</p>\u000a<h1 style="box-sizing: border-box; font-size: 2.25em; margin-top: 1em; margin-bottom: 16px; line-height: 1.2; position: relative; padding-bottom: 0.3em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;">\u000a	Installation</h1>\u000a<ul style="box-sizing: border-box; padding: 0px 0px 0px 2em; margin-top: 0px; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px;">\u000a	<li style="box-sizing: border-box;">\u000a		Download The plugin installer (.w2p file) and install it via the web2py interface.</li>\u000a</ul>\u000a<h1 style="box-sizing: border-box; font-size: 2.25em; margin-top: 1em; margin-bottom: 16px; line-height: 1.2; position: relative; padding-bottom: 0.3em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;">\u000a	Usage</h1>\u000a<div class="highlight highlight-python" style="box-sizing: border-box; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px;">\u000a	<pre style="box-sizing: border-box; overflow: auto; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace; font-size: 13.6000003814697px; margin-top: 0px; margin-bottom: 0px; font-stretch: normal; line-height: 1.45; padding: 16px; border-radius: 3px; word-wrap: normal; word-break: normal; background-color: rgb(247, 247, 247);"><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">from</span> plugin_simple_seo.seo <span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">import</span> set_seo_meta\u000a\u000aset_seo_meta(<span class="pl-smi" style="box-sizing: border-box;">title</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>web2py-simple-seo<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>, \u000a             <span class="pl-smi" style="box-sizing: border-box;">author</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&quot;</span>daxSlab<span class="pl-pds" style="box-sizing: border-box;">&quot;</span></span>,\u000a             <span class="pl-smi" style="box-sizing: border-box;">description</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>Simple SEO metadata plugin for web2py including Open Graph and Twitter Cards<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>),\u000a             keywords<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>SEO,Open Graph,Twitter Cards<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>)\u000a</pre>\u000a</div>\u000a<h1 style="box-sizing: border-box; font-size: 2.25em; margin-top: 1em; margin-bottom: 16px; line-height: 1.2; position: relative; padding-bottom: 0.3em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;">\u000a	Advanced Usage</h1>\u000a<div class="highlight highlight-python" style="box-sizing: border-box; margin-bottom: 16px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 25.6000003814697px;">\u000a	<pre style="box-sizing: border-box; overflow: auto; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace; font-size: 13.6000003814697px; margin-top: 0px; margin-bottom: 0px; font-stretch: normal; line-height: 1.45; padding: 16px; border-radius: 3px; word-wrap: normal; word-break: normal; background-color: rgb(247, 247, 247);"><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">from</span> plugin_simple_seo.seo <span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">import</span> set_seo_meta\u000a\u000aset_seo_meta(<span class="pl-smi" style="box-sizing: border-box;">title</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>web2py-simple-seo<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>, \u000a             <span class="pl-smi" style="box-sizing: border-box;">author</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&quot;</span>daxSlab<span class="pl-pds" style="box-sizing: border-box;">&quot;</span></span>,\u000a             <span class="pl-smi" style="box-sizing: border-box;">description</span><span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>Simple SEO metadata plugin for web2py including Open Graph and Twitter Cards<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>),\u000a             keywords<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>SEO,Open Graph,Twitter Cards<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>,\u000a             data_type<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>website<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>, \u000a             card<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>summary<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>,\u000a             generator<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&quot;</span>Web2py Web Framework<span class="pl-pds" style="box-sizing: border-box;">&quot;</span></span>,\u000a             url<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>http://myurl.com<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>,\u000a             image<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span>[<span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>http://myurl.com/image1.jpg<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>, <span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>http://myurl.com/image2.jpg<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>],\u000a             site_name<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>OG site name<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>\u000a             locale<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span><span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>en_US<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>\u000a             locale_alternate<span class="pl-k" style="box-sizing: border-box; color: rgb(167, 29, 93);">=</span>[<span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>fr_FR<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>, <span class="pl-s" style="box-sizing: border-box; color: rgb(24, 54, 145);"><span class="pl-pds" style="box-sizing: border-box;">&#39;</span>es_ES<span class="pl-pds" style="box-sizing: border-box;">&#39;</span></span>]\u000a             )</pre>\u000a</div>\u000a<p>\u000a	&nbsp;</p>\u000a
+p2292
+sVpypi
+p2293
+V
+sVis_active
+p2294
+I01
+sVmodified_on
+p2295
+NsVarticle_id
+p2296
+I2048
+sVlicense_version
+p2297
+V
+sVmarkup
+p2298
+Vhtml
+p2299
+sVdocumentation
+p2300
+V
+sVlicense_url
+p2301
+V
+sVqualification
+p2302
+(lp2303
+sVrepository_page
+p2304
+Vhttps://github.com/daxslab/web2py-simple-seo
+p2305
+sVlicense_type
+p2306
+Vmit
+p2307
+sVrepository_project
+p2308
+Vweb2py-simple-seo
+p2309
+ssassS'_formkey[no_table/create]'
+p2310
+(lp2311
+S'39c96f4d-4c12-4d67-81a5-7a8f5769c825'
+p2312
+aS'ff05f9c2-f1b2-4a87-9071-dc126b7f388a'
+p2313
+aS'4ec763a5-b3a7-4ac6-979b-bddbc8f985cb'
+p2314
+aS'5293ff37-7db4-4541-8a1e-cf5c10a3cc29'
+p2315
+aS'4d056183-48ff-4916-a513-0a1b5a51d527'
+p2316
+asS'_formkey[appcreate/create]'
+p2317
+(lp2318
+S'c553a35b-1e4b-429a-9cac-bd8cd4a91d35'
+p2319
+aS'535957ba-be2f-4fbb-bac3-1af1dccceb72'
+p2320
+aS'183d2e96-e421-45b8-a38d-11300782392f'
+p2321
+aS'76d52023-912b-4de2-8915-ad496f511b2b'
+p2322
+aS'a8ec0a6c-3a8d-41e2-8ae6-586a7d2b2140'
+p2323
+aS'3a290ea4-abbd-430a-9be1-69441144e3ff'
+p2324
+aS'a3e40086-bfd1-4668-8126-7978935655a9'
+p2325
+aS'ccc4f030-f271-41a8-a48f-f8420ba66971'
+p2326
+aS'18f5320c-598f-430b-8c72-da6b63c4d194'
+p2327
+asS'last_time'
+p2328
+F1550814728.0929999
+s.

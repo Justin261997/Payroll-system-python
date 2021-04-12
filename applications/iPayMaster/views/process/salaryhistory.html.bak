@@ -1,0 +1,6 @@
+{{extend 'hadmin_layout.html'}}
+{{=iform}}
+{{=empid}}
+{{=frdate}}
+{{=todate}}
+{{=hdata}}

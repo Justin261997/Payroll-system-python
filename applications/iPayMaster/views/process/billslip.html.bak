@@ -1,0 +1,7 @@
+{{extend 'hadmin_layout.html'}}
+{{=gform}}
+{{if dt != None and idict != None :}}
+    {{=dt.month}} {{=dt.year}} <br>
+    {{=hitems}}
+    {{=idict}}
+{{pass}}

@@ -1,0 +1,31 @@
+{{extend 'hadmin_layout.html'}}
+<div class='form-style-9'>
+    <center>
+    <h3>
+        College of Applied Science, Payyappady<br>
+        <u> Pay Slip</u>
+    </h3>
+    </center>
+    <h4>
+    To,<br>
+       Sri/Smt. {{=empdata.name}}<br>
+                {{=empdesig.name}}<br>
+    <h5>
+    Salary for the month and year : {{=mn}}
+    </h5>
+    </h4>
+    <table class="table table-bordered" width="90%">
+        <tr><th width="30%">Income</th><th width="15%">Amount</th><th width="30%">Deductions</th><th width="15%">Amount</th></tr>
+        <tr><td  width="30%">Basic Salary</td><td width="15%">{{=slip.basicpay}}</td><td  width="30%">CPF Contribution</td><td width="15%">{{=slip.cpf}}</td></tr>
+        <tr><td  width="30%">DA</td><td width="15%">{{=slip.da}}</td><td  width="30%">CPF Loan Refund</td><td width="15%">{{=slip.cpfrefund}}</td></tr>
+        <tr><td  width="30%">HRA</td><td width="15%">{{=slip.hra}}</td><td  width="30%">Festival Advance Refund</td><td width="15%">{{=slip.festivaladvancerefund}}</td></tr>
+        <tr><td  width="30%">Special Allowance</td><td width="15%">{{=slip.specialallowance}}</td><td  width="30%">House Loan Refund</td><td  width="15%">{{=slip.houseloan}}</td></tr>
+        <tr><td  width="30%">Flood Relief</td><td width="15%">{{=slip.floodrelief}}</td><td  width="30%">Income Tax</td><td width="15%">{{=slip.incometax}}</td></tr>
+        <tr><td  width="30%">Substancive Pay</td><td width="15%">{{=slip.substancivepay}}</td><td  width="30%">GPAIS</td><td width="15%">{{=slip.gpais}}</td></tr>
+        <tr><td  width="30%">Leave Salary</td><td width="15%">{{=slip.leavesalary}}</td><td width="30%"></td><td  width="15%"></td></tr>
+        <tr><td  width="30%">Festival Allowance</td><td width="15%">{{=slip.festivalallowance}}</td><td  width="30%"></td><td width="15%"></td></tr>
+        <tr><td  width="30%">Festival Advance</td><td width="15%">{{=slip.festivaladvance}}</td><td width="30%"></td><td width="15%"></td></tr>
+        <tr><td  width="30%"><b>Gross Total</b></td><td width="15%"><b>{{=slip.grsstotal}}</b></td><td  width="30%" ><b>Total Deduction</b></td><td width="15%"><b>{{=slip.totaldeduction}}</b></td></tr>
+    </table>
+    Net Pay  :<b> {{=slip.netpay}}</b>&nbsp(<b>&nbsp{{=wrd}}</b>)
+</div>

@@ -1,0 +1,92 @@
+<html xml:lang="en-GB" lang="en-GB">
+<head>
+<meta name="viewport" content="width=device-width">
+<title qtlid="283606">Site not installed</title>
+<meta http-equiv="refresh" content="480">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="en-GB">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<style type="text/css" translate="none">
+                    @font-face {
+                        font-family: 'lato';
+                        src: url('/__ovh/common/font/lato-light-webfont.eot');
+                        src: url('/__ovh/common/font/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+                             url('/__ovh/common/font/lato-light-webfont.woff') format('woff'),
+                             url('/__ovh/common/font/lato-light-webfont.ttf') format('truetype'),
+                             url('/__ovh/common/font/lato-light-webfont.svg#latolight') format('svg');
+                        font-weight: 200;
+                        font-style: normal;
+                    }
+                    @font-face {
+                        font-family: 'lato';
+                        src: url('/__ovh/common/font/lato-regular-webfont.eot');
+                        src: url('/__ovh/common/font/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+                             url('/__ovh/common/font/lato-regular-webfont.woff') format('woff'),
+                             url('/__ovh/common/font/lato-regular-webfont.ttf') format('truetype'),
+                             url('/__ovh/common/font/lato-regular-webfont.svg#latoregular') format('svg');
+                         font-weight: 400;
+                         font-style: normal;
+                    }
+                    html { font-size: 100%; }
+                    body { background-color: #F1F1F1; font-size: 0.8em; margin: 0; font-family: "lato", 'Arial'; padding: 8% 0 0 0; }
+                    div.wrapper { margin: 0 auto; padding: 0; max-width: 736px; text-align: center; }
+                    img { width: 100%; }
+
+                    div.content { width: 100%; min-height: 300px; text-align: center; }
+                    div.content h1 { font-size: 2.5em; font-weight: 200; }
+                    div.content p { font-size: 1.5em; }
+
+                    hr { display: block; height: 0; font-size: 0; border: 0; border-bottom: solid 1px #494949; }
+                    .full { width: 100%; }
+                    table { width: 100%; }
+                    table tr td h3 { width: 100%; display: block; text-align: center; font-weight: 400; font-size: 1.7em; margin: 8px 0; line-height: 20px; }
+                    table tr td span { text-align: center; display: block; font-weight: 200; color #494949; font-size: 1em; }
+
+                    div.item { margin: 0 auto; }
+                    div.item:last-child,
+                    div.item:nth-of-type(5n) { margin-right: 0; }
+                    div.item img { max-width: 78px; display: block; margin: 0 auto 10px auto; }
+                    div.item a { display: block; font-size: 1.2em; line-height: 1.4em; }
+
+                    @media screen and (max-width: 681px) {
+                        div.wrapper { padding: 0 8px; }
+                        table tr td h3 { font-size: 1em; }
+                        table tr td span { font-size: 0.8em; }
+                    }
+                </style>
+</head>
+<body><div class="wrapper">
+<span style="font-size: 3.7em; color: #494949; font-weight: 200;" qtlid="283619">Site </span><span style="font-size: 3.7em; color: #3267BF; font-weight: 400;" qtlid="283632">not installed</span><br><p style="font-weight: 200; font-size: 1.2em; line-height: 20px; color: #494949;" qtlid="283645;283671">
+                        The site <span translate="none" style="font-weight: bold">cloud.deep.to.it</span> is not yet installed
+                    </p>
+<br><br><img src="/__ovh/common/img/misconfig.png" style="margin: 20px 0;" qtlid_src="283762"><br><table cellpadding="0" cellspacing="0" border="0"><tr>
+<td style="width: 22%;">
+<h3 style="color: #86A81D;" qtlid="74100">You</h3>
+<span qtlid="74113">Internet browser</span>
+</td>
+<td style="width: 15%;"></td>
+<td style="width: 22%">
+<h3 style="color: #86A81D;" qtlid="74126">Web host</h3>
+<span qtlid="283697">OVH, cluster015</span>
+</td>
+<td style="width: 15%;"></td>
+<td style="width: 24%;">
+<h3 style="color: #494949;" qtlid="74035">Website</h3>
+<span qtlid="74139">Site access</span>
+</td>
+<td style="width: 3%;"></td>
+</tr></table>
+<br><br><p id="contact" style="font-weight: 200; font-size: 1.2em; line-height: 20px; color: #3267BF;" qtlid="283710">
+                        If it has just been created, please wait 15 minutes.
+                    </p>
+<br><br><div class="content">
+<div class="item"><a href="https://www.ovh.co.uk/g1585.configuration" title="Guides" style="color: #3267BF;" target="_blank" qtlid="283749" qtlid_href="283723" qtlid_title="74256"><img src="/__ovh/common/img/icn-guide.png" qtlid_src="283736">
+                                Configuration guide
+                            </a></div>
+<br style="clear: both;">
+</div>
+</div></body>
+</html>
+

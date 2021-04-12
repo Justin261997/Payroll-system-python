@@ -1,0 +1,26 @@
+{{extend 'hadmin_layout.html'}}
+
+{{block header}}
+<!-- <div class="jumbotron jumbotron-fluid background" style="background-color: #333; color:white; padding:30px;word-wrap:break-word;">
+
+</div> -->
+{{end}}
+{{if auth.is_logged_in():}}
+      <div>
+          <h1>Welcome to iPayMaster.</h1>
+      </div>
+     {{pass}}
+<div class="row">
+  <div class="col-md-12" >
+    {{if not auth.is_logged_in():}}
+        <center>
+            <div class="col-md-4" >
+                {{=loginform}}
+            </div>
+        </center>
+    {{elif 'content' in globals():}}
+    {{=content}}
+    {{else:}}
+    {{pass}}
+  </div>
+</div>

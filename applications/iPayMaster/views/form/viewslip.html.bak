@@ -1,0 +1,31 @@
+{{extend 'hadmin_layout.html'}}
+<div class='form-style-9'>
+    <center>
+    <h3>
+        College of Applied Science, Payyappady<br>
+        <u> Pay Slip</u>
+    </h3>
+    </center>
+    <h4>
+    To,<br>
+       Sri/Smt. {{=empdata.name}}<br>
+                {{=empdesig.name}}<br>
+    <h5>
+    Salary for the month and year : {{=mn}}
+    </h5>
+    </h4>
+    <table class="table table-bordered">
+        <tr><th>Income</th><th>Amount</th><th>Deductions</th><th>Amount</th></tr>
+        <tr><td>Basic Salary</td><td>{{=slip.basicpay}}</td><td>CPF Contribution</td><td>{{=slip.cpf}}</td></tr>
+        <tr><td>DA</td><td>{{=slip.da}}</td><td>CPF Loan Refund</td><td>{{=slip.cpfrefund}}</td></tr>
+        <tr><td>HRA</td><td>{{=slip.hra}}</td><td>Festival Advance Refund</td><td>{{=slip.festivaladvancerefund}}</td></tr>
+        <tr><td>Special Allowance</td><td>{{=slip.specialallowance}}</td><td>House Loan Refund</td><td>{{=slip.houseloan}}</td></tr>
+        <tr><td>Flood Relief</td><td>{{=slip.floodrelief}}</td><td>Income Tax</td><td>{{=slip.incometax}}</td></tr>
+        <tr><td>Substancive Pay</td><td>{{=slip.substancivepay}}</td><td>GPAIS</td><td>{{=slip.gpais}}</td></tr>
+        <tr><td>Leave Salary</td><td>{{=slip.leavesalary}}</td><td></td><td></td></tr>
+        <tr><td>Festival Allowance</td><td>{{=slip.festivalallowance}}</td><td></td><td></td></tr>
+        <tr><td>Festival Advance</td><td>{{=slip.festivaladvance}}</td><td></td><td></td></tr>
+        <tr><td><b>Gross Total</b></td><td><b>{{=slip.grsstotal}}</b></td><td><b>Total Deduction</b></td><td><b>{{=slip.totaldeduction}}</b></td></tr>
+    </table>
+    Net Pay  :<b> {{=slip.netpay}}</b>&nbsp(<b>&nbsp{{=wrd}}</b>)
+</div>
